@@ -1,0 +1,356 @@
+IL No.,Name,SMILES,logEC50,Dataset,Normalized SMILES,RANDOM,IL,EC50
+1,(Ethoxymethyl)ethyldimethylammonium Chloride,[N+](C)(C)(CC)COCC.[Cl-] ,3.59,Training,CCOC[N+](C)(C)CC.[Cl-],1,1,3890.45145
+2,(Ethoxymethyl)ethyldimethylammonium Bis(trifluoromethylsulfonyl)amide,[N+](C)(C)(CC)COCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.8,Training,CCOC[N+](C)(C)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,2,2,6309.573445
+3,"Tetraethylammonium Bis[1,2-benzenediolato(2-)-O1,O2]borate",O1c4c(O[B-]12Oc3c(O2)cccc3)cccc4.CC[N+](CC)(CC)CC,1.17,Training,CC[N+](CC)(CC)CC.c1ccc2c(c1)O[B-]1(O2)Oc2ccccc2O1,3,3,14.79108388
+4,Benzyldecyldimethylammonium Chloride,[N+](C)(C)(Cc1ccccc1)CCCCCCCCCC.[Cl-] ,0.64,Test,CCCCCCCCCC[N+](C)(C)Cc1ccccc1.[Cl-],4,4,4.365158322
+5,(ethoxycarbonylmethyl)ethyldimethylammonium bis(trifluoromethylsulfonyl)amide,[N+](C)(C)(CC)CC(=O)OCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.53,Training,CCOC(=O)C[N+](C)(C)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,5,5,3388.441561
+6,Butyltrimethylammonium Bis(trifluoromethylsulfonyl)amide,[N+](C)(C)(C)CCCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.61,Training,CCCC[N+](C)(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,6,6,4073.802778
+7,Ethyl(2-ethoxyethyl)dimethylammonium Bis(trifluoromethylsulfonyl)amide,[N+](C)(C)(CC)CCOCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.27,Training,CCOCC[N+](C)(C)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,7,7,1862.087137
+8,Ethyl(2-hydroxyethyl)dimethylammonium Bis(trifluoromethylsulfonyl)amide,[N+](C)(C)(CC)CCO.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.7,Test,CC[N+](C)(C)CCO.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,8,8,5011.872336
+9,Ethyl(2-methoxyethyl)dimethylammonium Bis(trifluoromethylsulfonyl)amide,[N+](C)(C)(CC)CCOC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.3,Training,CC[N+](C)(C)CCOC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,9,9,1995.262315
+10,Ethyl(3-methoxypropyl)dimethylammonium Bis(trifluoromethylsulfonyl)amide,[N+](C)(C)(CC)CCCOC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.54,Training,CC[N+](C)(C)CCCOC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,10,10,3467.368505
+11,tetrabutylammonium bromide ,[N+](CCCC)(CCCC)(CCCC)CCCC.[Br-] ,2.25,Test,CCCC[N+](CCCC)(CCCC)CCCC.[Br-],11,11,177.827941
+12,(cyanomethyl)ethyldimethylammonium chloride ,[N+](C)(C)(CC)CC#N.[Cl-] ,4.6,Training,CC[N+](C)(C)CC#N.[Cl-],12,12,39810.71706
+13,ethyl(2-methoxyethyl)dimethylammonium chloride ,[N+](C)(C)(CC)CCOC.[Cl-] ,4.6,Test,CC[N+](C)(C)CCOC.[Cl-],13,13,39810.71706
+14,ethyl(2-hydroxyethyl)dimethylammonium iodide ,[N+](C)(C)(CC)CCO.[I-] ,4.6,Test,CC[N+](C)(C)CCO.[I-],14,14,39810.71706
+15,(2-ethoxyethyl)ethyldimethylammonium chloride ,[N+](C)(C)(CC)CCOCC.[Cl-] ,4.6,Training,CCOCC[N+](C)(C)CC.[Cl-],15,15,39810.71706
+16,ethyl(3-methoxypropyl)dimethylammonium chloride ,[N+](C)(C)(CC)CCCOC.[Cl-] ,4.9,Training,CC[N+](C)(C)CCCOC.[Cl-],16,16,79432.82347
+17,(cyanomethyl)ethyldimethylammonium bis(trifluoromethylsulfonyl)amide,[N+](C)(C)(CC)CC#N.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.86,Training,CC[N+](C)(C)CC#N.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,17,17,7244.359601
+18,ethyl(3-hydroxypropyl)dimethylammonium bis(trifluoromethylsulfonyl)amide,[N+](C)(C)(CC)CCCO.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.83,Test,CC[N+](C)(C)CCCO.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,18,18,6760.829754
+19,bis(2-methoxyethyl)ammonium sulfamate,[NH2+](CCOC)CCOC.[O-]S(=O)(=O)N ,3.48,Training,COCC[NH2+]CCOC.NS(=O)(=O)[O-],19,19,3019.95172
+20,(2-hydroxyethyl)trimethylammonium hydroxyacetate ,[N+](C)(C)(C)CCO.[O-]C(=O)CO ,3.89,Training,C[N+](C)(C)CCO.O=C([O-])CO,20,20,7762.471166
+21,(2-hydroxyethyl)ammonium formate ,[NH3+]CCO.[O-]C=O ,4.15,Test,O=C[O-].[NH3+]CCO,21,21,14125.37545
+22,ethyl(2-ethoxyethyl)dimethylammonium chloride ,[Cl-].O(CC)CC[NH+](C)C,4.6,Training,CCOCC[NH+](C)C.[Cl-],22,22,39810.71706
+23,butylethyldimethylammonium chloride ,[N+](C)(C)(CC)CCCC.[Cl-] ,4.6,Training,CCCC[N+](C)(C)CC.[Cl-],23,23,39810.71706
+24,(2-hydroxyethyl)trimethylammonium 2-hydroxypropanoate ,[N+](C)(C)(C)CCO.[O-]C(=O)C(C)O ,4.6,Training,CC(O)C(=O)[O-].C[N+](C)(C)CCO,24,24,39810.71706
+25,benzyltetradecyldimethylammonium chloride,[N+](C)(C)(Cc1ccccc1)CCCCCCCCCCCCCC.[Cl-] ,0.16,Test,CCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1.[Cl-],25,25,1.445439771
+26,benzyldodecyldimethylammonium chloride ,[N+](C)(C)(Cc1ccccc1)CCCCCCCCCCCC.[Cl-] ,0.28,Test,CCCCCCCCCCCC[N+](C)(C)Cc1ccccc1.[Cl-],26,26,1.905460718
+27,benzylhexadecyldimethylammonium chloride ,[N+](C)(C)(Cc1ccccc1)CCCCCCCCCCCCCCCC.[Cl-] ,0.33,Training,CCCCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1.[Cl-],27,27,2.13796209
+28,(2-hydroxyethyl)dimethylammonium acetate ,[NH+](C)(C)CCO.[O-]C(=O)C ,3.39,Training,CC(=O)[O-].C[NH+](C)CCO,28,28,2454.708916
+29,(2-hydroxyethyl)dimethylammonium hydroxyacetate ,[NH+](C)(C)CCO.[O-]C(=O)CO ,3.4,Training,C[NH+](C)CCO.O=C([O-])CO,29,29,2511.886432
+30,tetraethylammonium chloride ,[N+](CC)(CC)(CC)CC.[Cl-] ,3.78,Test,CC[N+](CC)(CC)CC.[Cl-],30,30,6025.595861
+31,tetramethylammonium trifluoridotris(pentafluoroethyl)phosphate,[N+](C)(C)(C)C.[P-](F)(F)(F)(C(F)(F)C(F)(F)F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F ,2.03,Test,C[N+](C)(C)C.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,31,31,107.1519305
+32,Butylethyldimethylammonium Bis(trifluoromethylsulfonyl)amide,[N+](C)(C)(CC)CCCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.53,Training,CCCC[N+](C)(C)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,32,32,3388.441561
+33,"tetrabutylammonium bis[1,2-benzenediolato(2-)]borate",[N+](CCCC)(CCCC)(CCCC)CCCC.[B-]12(Oc3ccccc3O1)Oc3ccccc3O2 ,1.61,Training,CCCC[N+](CCCC)(CCCC)CCCC.c1ccc2c(c1)O[B-]1(O2)Oc2ccccc2O1,33,33,40.73802778
+34,(ethoxycarbonylmethyl)ethyldimethylammonium bromide ,[N+](C)(C)(CC)CC(=O)OCC.[Br-] ,3.85,Training,CCOC(=O)C[N+](C)(C)CC.[Br-],34,34,7079.457844
+36,1-Ethyl-3-methylimidazolium Tetrafluoroborate,[N+]1(C)=CN(C=C1)CC.[B-](F)(F)(F)F ,3.44,Training,CCn1cc[n+](C)c1.F[B-](F)(F)F,35,35,2754.228703
+37,3-Methyl-1-octylimidazolium Chloride,[N+]1(C)=CN(C=C1)CCCCCCCC.[Cl-] ,2.012837225,Test,CCCCCCCCn1cc[n+](C)c1.[Cl-],36,36,103.0000001
+38,3-Methyl-1-octylimidazolium Hexafluorophosphate,[N+]1(C)=CN(C=C1)CCCCCCCC.[P-](F)(F)(F)(F)(F)F ,1.96,Training,CCCCCCCCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F,37,37,91.20108394
+39,3-Methyl-1-octylimidazolium Tetrafluoroborate,[N+]1(C)=CN(C=C1)CCCCCCCC.[B-](F)(F)(F)F ,1.591064607,Training,CCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F,38,38,39
+40,3-Methyl-1-nonylimidazolium Chloride,[N+]1(C)=CN(C=C1)CCCCCCCCC.[Cl-] ,1.399673721,Training,CCCCCCCCCn1cc[n+](C)c1.[Cl-],39,39,25.09999997
+41,3-Methyl-1-nonylimidazolium Hexafluorophosphate,[N+]1(C)=CN(C=C1)CCCCCCCCC.[P-](F)(F)(F)(F)(F)F ,1.854913022,Training,CCCCCCCCCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F,40,40,71.59999995
+42,3-Methyl-1-nonylimidazolium Tetrafluoroborate,[N+]1(C)=CN(C=C1)CCCCCCCCC.[B-](F)(F)(F)F ,1.65,Training,CCCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F,41,41,44.66835922
+43,3-Methyl-1-propylimidazolium Tetrafluoroborate,[N+]1(C)=CN(C=C1)CCC.[B-](F)(F)(F)F ,3.45484486,Training,CCCn1cc[n+](C)c1.F[B-](F)(F)F,42,42,2850
+44,1-butyl-3-methylimidazolium tetrafluoroborate,[N+]1(C)=CN(C=C1)CCCC.[B-](F)(F)(F)F,3.230448921,Training,CCCCn1cc[n+](C)c1.F[B-](F)(F)F,43,43,1699.999999
+45,1-Butyl-3-methylimidazolium Bromide,[N+]1(C)=CN(C=C1)CCCC.[Br-] ,3.426511261,Training,CCCCn1cc[n+](C)c1.[Br-],44,44,2669.999998
+46,1-Butyl-3-ethylimidazolium Tetrafluoroborate,[N+]1(CC)=CN(C=C1)CCCC.[B-](F)(F)(F)F ,3.257678575,Training,CCCCn1cc[n+](CC)c1.F[B-](F)(F)F,45,45,1810.000001
+47,1-methyl-3-pentylimidazolium chloride ,[Cl-].c1c[n+](cn1C)CCCCC,3.16,Training,CCCCC[n+]1ccn(C)c1.[Cl-],46,46,1445.439771
+48,1-methyl-3-pentylimidazolium hexafluorophosphate,F[P-](F)(F)(F)(F)F.c1c[n+](cn1C)CCCCC,3.07,Training,CCCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F,47,47,1174.897555
+49,1-methyl-3-pentylimidazolium tetrafluoroborate,[Cl-].OCCC[n+]1ccn(c1)C,3.09,Training,Cn1cc[n+](CCCO)c1.[Cl-],48,48,1230.268771
+50,1-hexyl-3-methylimidazolium chloride ,[N+]1(C)=CN(C=C1)CCCCCC.[Cl-] ,2.85,Training,CCCCCCn1cc[n+](C)c1.[Cl-],49,49,707.9457844
+51,1-Hexyl-3-methylimidazolium Tetrafluoroborate,[N+]1(C)=CN(C=C1)CCCCCC.[B-](F)(F)(F)F ,2.980003372,Training,CCCCCCn1cc[n+](C)c1.F[B-](F)(F)F,50,50,955.0000009
+52,1-Hexyl-3-ethylimidazolium Bromide,[N+]1(CC)=CN(C=C1)CCCCCC.[Br-] ,2.01,Training,CCCCCCn1cc[n+](CC)c1.[Br-],51,51,102.3292992
+53,1-Hexyl-3-ethylimidazolium Tetrafluoroborate,[N+]1(CC)=CN(C=C1)CCCCCC.[B-](F)(F)(F)F ,2.26,Training,CCCCCCn1cc[n+](CC)c1.F[B-](F)(F)F,52,52,181.9700859
+54,1-heptyl-3-methylimidazolium chloride ,[N+]1(C)=CN(C=C1)CCCCCCC.[Cl-] ,2.53,Training,CCCCCCCn1cc[n+](C)c1.[Cl-],53,53,338.8441561
+55,1-heptyl-3-methylimidazolium hexafluorophosphate,[N+]1(C)=CN(C=C1)CCCCCCC.[P-](F)(F)(F)(F)(F)F ,2.3,Training,CCCCCCCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F,54,54,199.5262315
+56,1-heptyl-3-methylimidazolium Tetrafluoroborate,[N+]1(C)=CN(C=C1)CCCCCCC.[B-](F)(F)(F)F ,2.58,Training,CCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F,55,55,380.1893963
+57,1-decyl-3-methylimidazolium chloride ,[N+]1(C)=CN(C=C1)CCCCCCCCCC.[Cl-] ,1.34,Test,CCCCCCCCCCn1cc[n+](C)c1.[Cl-],56,56,21.87761624
+58,1-decyl-3-methylimidazolium hexafluorophosphate,[N+]1(C)=CN(C=C1)CCCCCCCCCC.[P-](F)(F)(F)(F)(F)F ,1.498310554,Training,CCCCCCCCCCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F,57,57,31.50000002
+59,1-Decyl-3-methylimidazolium Tetrafluoroborate,[N+]1(C)=CN(C=C1)CCCCCCCCCC.[B-](F)(F)(F)F ,0.769377326,Training,CCCCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F,58,58,5.879999999
+60,1-Decyl-3-ethylimidazolium Bromide,[N+]1(CC)=CN(C=C1)CCCCCCCCCC.[Br-] ,0.53,Training,CCCCCCCCCCn1cc[n+](CC)c1.[Br-],59,59,3.388441561
+61,1-butyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide,[N+]1(C)=CN(C=C1)CCCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,2.682145076,Training,CCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,60,60,480.9999996
+62,3-(2-hydroxyethyl)-1-methylimidazolium bis(trifluoromethylsulfonyl)imide,FC(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F.OCC[n+]1ccn(c1)C,3.763427994,Training,Cn1cc[n+](CCO)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,61,61,5800.000006
+63,1-benzyl-3-methylimidazolium tetrafluoroborate,[N+]1(C)=CN(C=C1)Cc1ccccc1.[B-](F)(F)(F)F ,2.974050903,Training,C[n+]1ccn(Cc2ccccc2)c1.F[B-](F)(F)F,62,62,942.0000004
+64,1-Ethyl-3-methylimidazolium Ethyl Sulfate,CCOS([O-])(=O)=O.CCN1C=C[N+](C)=C1 ,3.928395852,Training,CCOS(=O)(=O)[O-].CCn1cc[n+](C)c1,63,63,8479.999995
+65,1-Butyl-3-methylimidazolium Chloride,[N+]1(C)=CN(C=C1)CCCC.[Cl-],3.553883027,Training,CCCCn1cc[n+](C)c1.[Cl-],64,64,3580.000003
+66,1-hexyl-3-methylimidazolium Hexafluorophosphate,[N+]1(C)=CN(C=C1)CCCCCC.[P-](F)(F)(F)(F)(F)F ,2.909020854,Training,CCCCCCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F,65,65,810.9999996
+67,1-Butyl-3-methylimidazolium Hexafluorophosphate,[N+]1(C)=CN(C=C1)CCCC.[P-](F)(F)(F)(F)(F)F ,3.096910013,Test,CCCCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F,66,66,1250
+68,1-(2-Methoxypropyl)-3-methylimidazolium Bis(trifluoromethylsulfonyl)amide,FC(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F.O(C)C(Cn1cc[n+](c1)C)C,3.342422681,Test,COC(C)Cn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,67,67,2200.000001
+69,1-(2-Methoxypropyl)-3-methylimidazolium Chloride,[Cl-].O(C)C(Cn1cc[n+](c1)C)C,4.49,Test,COC(C)Cn1cc[n+](C)c1.[Cl-],68,68,30902.95433
+70,1-butyl-3-ethyl-3H-imidazolium trifluoroacetate ,[N+]1(CC)=CN(C=C1)CCCC.[O-]C(=O)C(F)(F)F ,3.31386722,Test,CCCCn1cc[n+](CC)c1.O=C([O-])C(F)(F)F,69,69,2059.999998
+71,1-butyl-3-ethyl-3H-imidazolium trifluoromethanesulfonate ,[N+]1(CC)=CN(C=C1)CCCC.[O-]S(=O)(=O)C(F)(F)F ,3.426511261,Test,CCCCn1cc[n+](CC)c1.O=S(=O)([O-])C(F)(F)F,70,70,2669.999998
+72,1-Butyl-3-methylimidazolium Trifluoromethanesulfonate,[N+]1(C)=CN(C=C1)CCCC.[O-]S(=O)(=O)C(F)(F)F ,3.021189299,Test,CCCCn1cc[n+](C)c1.O=S(=O)([O-])C(F)(F)F,71,71,1050
+73,1-Butyl-3-methylimidazolium Dicyanamide,CCCCN1C=C[N+](=C1)C.C(#N)[N-]C#N,3.15,Training,CCCCn1cc[n+](C)c1.N#C[N-]C#N,72,72,1412.537545
+74,1-Butyl-3-methylimidazolium 2-(2-Methoxyethoxy)ethyl sulfate,[N+]1(C)=CN(C=C1)CCCC.[O-]S(=O)(=O)OCCOCCOC ,3.158362492,Training,CCCCn1cc[n+](C)c1.COCCOCCOS(=O)(=O)[O-],73,73,1440
+75,1-Butyl-3-methylimidazolium 1-Methylsulfate,[N+]1(C)=CN(C=C1)CCCC.[O-]S(=O)(=O)OC ,3.212187604,Training,CCCCn1cc[n+](C)c1.COS(=O)(=O)[O-],74,74,1629.999998
+76,1-Butyl-3-methylimidazolium 1-Octylsulfate,[N+]1(C)=CN(C=C1)CCCC.[O-]S(=O)(=O)OCCCCCCCC ,3.225309282,Training,CCCCCCCCOS(=O)(=O)[O-].CCCCn1cc[n+](C)c1,75,75,1680.000001
+77,1-Butyl-3-methylimidazolium Hydrogensulfate,[N+]1(C)=CN(C=C1)CCCC.[O-]S(=O)(=O)O ,3.28780173,Training,CCCCn1cc[n+](C)c1.O=S(=O)([O-])O,76,76,1940
+78,1-Butyl-3-methylimidazolium Toluene-4-sulfonate,CCCCN1C=C[N+](=C1)C.CC1=CC=C(C=C1)S(=O)(=O)[O-],3.29,Training,CCCCn1cc[n+](C)c1.Cc1ccc(S(=O)(=O)[O-])cc1,77,77,1949.8446
+79,1-Butyl-3-methylimidazolium Thiocyanate,[N+]1(C)=CN(C=C1)CCCC.[S-]C#N ,3.416640507,Test,CCCCn1cc[n+](C)c1.N#C[S-],78,78,2609.999998
+80,1-Butyl-3-methylimidazolium 1-Methanesulfonate,[N+]1(C)=CN(C=C1)CCCC.[O-]S(=O)(=O)C ,3.511883361,Training,CCCCn1cc[n+](C)c1.CS(=O)(=O)[O-],79,79,3250
+81,1-Butyl-3-methylimidazolium Iodide,[N+]1(C)=CN(C=C1)CCCC.[I-] ,3.481442629,Training,CCCCn1cc[n+](C)c1.[I-],80,80,3030.000003
+82,1-Ethyl-3-methylimidazolium Bis[oxalato(2-)]-borate,[N+]1(C)=CN(C=C1)CC.[B-]12(OC(=O)C(=O)O1)OC(=O)C(=O)O2 ,2.93,Training,CCn1cc[n+](C)c1.O=C1O[B-]2(OC1=O)OC(=O)C(=O)O2,81,81,851.1380382
+83,1-Ethyl-3-methylimidazolium Tetracyanoborate,[N+]1(C)=CN(C=C1)CC.[B-](C#N)(C#N)(C#N)C#N ,3.5,Training,CCn1cc[n+](C)c1.N#C[B-](C#N)(C#N)C#N,82,82,3162.27766
+84,1-ethyl-3-methylimidazolium hexafluorophosphate ,[N+]1(C)=CN(C=C1)CC.[P-](F)(F)(F)(F)(F)F ,3.918030337,Training,CCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F,83,83,8280.000004
+85,1-ethyl-3-methylimidazolium trifluoroacetate ,[N+]1(C)=CN(C=C1)CC.[O-]C(=O)C(F)(F)F ,4.004321374,Training,CCn1cc[n+](C)c1.O=C([O-])C(F)(F)F,84,84,10100.00001
+86,1-Ethyl-3-methylimidazolium Toluene-4-sulfonate,CCN1C=C[N+](=C1)C.CC1=CC=C(C=C1)S(=O)(=O)[O-],3.81,Test,CCn1cc[n+](C)c1.Cc1ccc(S(=O)(=O)[O-])cc1,85,85,6456.54229
+87,1-ethyl-3-methylimidazolium hydrogen sulfate ,[N+]1(C)=CN(C=C1)CC.[O-]S(=O)(=O)O ,3.99,Training,CCn1cc[n+](C)c1.O=S(=O)([O-])O,86,86,9772.37221
+88,1-ethyl-3-methylimidazolium trifluoromethanesulfonate ,[N+]1(C)=CN(C=C1)CC.[O-]S(=O)(=O)C(F)(F)F ,4.086359831,Training,CCn1cc[n+](C)c1.O=S(=O)([O-])C(F)(F)F,87,87,12200.00001
+89,1-hexadecyl-3-methylimidazolium chloride ,[N+]1(C)=CN(C=C1)CCCCCCCCCCCCCCCC.[Cl-] ,-0.240332155,Training,CCCCCCCCCCCCCCCCn1cc[n+](C)c1.[Cl-],88,88,0.575
+90,"1-Hexyl-3-methylimidazolium 1,2-Benzisothiazolonium 1,1-dioxide",[O-]C2=NS(=O)(=O)c1ccccc12.c1c[n+](cn1CCCCCC)C,2.29,Training,CCCCCCn1cc[n+](C)c1.O=S1(=O)N=C([O-])c2ccccc21,89,89,194.98446
+91,1-Methyl-3-(2-phenylethyl)imidazolium Hexafluorophosphate,[N+]1(C)=CN(C=C1)CCc1ccccc1.[P-](F)(F)(F)(F)(F)F ,2.92788341,Test,C[n+]1ccn(CCc2ccccc2)c1.F[P-](F)(F)(F)(F)F,90,90,846.9999994
+92,1-Methyl-3-[(4-methylphenyl)methyl]imidazolium Chloride,Cc1ccc(cc1)Cn2cc[n+](c2)C.[Cl-],2.64,Training,Cc1ccc(Cn2cc[n+](C)c2)cc1.[Cl-],91,91,436.5158322
+93,1-Methyl-3-[(4-methylphenyl)methyl]imidazolium Tetrafluoroborate,F[B-](F)(F)F.c1cc(ccc1C)Cn2cc[n+](c2)C,2.67,Training,Cc1ccc(Cn2cc[n+](C)c2)cc1.F[B-](F)(F)F,92,92,467.7351413
+94,"3-Hexyl-1,2-dimethylimidazolium Tetrafluoroborate",F[B-](F)(F)F.c1c[n+](c(n1C)C)CCCCCC,1.9,Training,CCCCCC[n+]1ccn(C)c1C.F[B-](F)(F)F,93,93,79.43282347
+95,3-Methyl-1-octadecylimidazolium Chloride,[N+]1(C)=CN(C=C1)CCCCCCCCCCCCCCCCCC.[Cl-] ,0.012837225,Training,CCCCCCCCCCCCCCCCCCn1cc[n+](C)c1.[Cl-],94,94,1.030000001
+96,3-Methyl-1-octylimidazolium Bis(trifluoromethylsulfonyl)amide,FC(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F.c1c[n+](cn1CCCCCCCC)C,1.64,Training,CCCCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,95,95,43.65158322
+97,1-hexyl-3-methylimidazolium bis(trifluoromethylsulfonyl)amide,[N+]1(C)=CN(C=C1)CCCCCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,2.243038049,Training,CCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,96,96,175.0000001
+98,1-ethyl-3-methylimidazolium trifluoridotris(pentafluoroethyl)phosphate ,[N+]1(C)=CN(C=C1)CC.[P-](F)(F)(F)(C(F)(F)C(F)(F)F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F ,2,Training,CCn1cc[n+](C)c1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,97,97,100
+99,1-butyl-3-methylimidazolium trifluoridotris(pentafluoroethyl)phosphate ,[N+]1(C)=CN(C=C1)CCCC.[P-](F)(F)(F)(C(F)(F)C(F)(F)F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F ,1.374748346,Training,CCCCn1cc[n+](C)c1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,98,98,23.7
+100,1-hexyl-3-methylimidazolium trifluoridotris(pentafluoroethyl)phosphate,[N+]1(C)=CN(C=C1)CCCCCC.[P-](F)(F)(F)(C(F)(F)C(F)(F)F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F ,1.428134794,Test,CCCCCCn1cc[n+](C)c1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,99,99,26.8
+101,1-hexyl-3-methylimidazolium trifluoridotris(heptafluoropropyl)phosphate,[N+]1(C)=CN(C=C1)CCCCCC.[P-](F)(F)(F)(C(F)(F)C(F)(F)C(F)(F)F)(C(F)(F)C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)C(F)(F)F ,1.4,Training,CCCCCCn1cc[n+](C)c1.FC(F)(F)C(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)C(F)(F)F,100,100,25.11886432
+102,1-ethyl-3-methylimidazolium bis(pentafluoroethyl)phosphinate ,[N+]1(C)=CN(C=C1)CC.[O-]P(=O)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F ,2.832508913,Test,CCn1cc[n+](C)c1.O=P([O-])(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,101,101,680.0000005
+103,1-butyl-3-methylimidazolium tetracarbonylcobaltate,CCCCN1C=C[N+](=C1)C.[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[Co],2.447158031,Training,CCCCn1cc[n+](C)c1.[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[Co],102,102,279.9999998
+104,1-(2-hydroxyethyl)-3-methylimidazolium iodide ,[N+]1(C)=CN(C=C1)CCO.[I-] ,4.6,Training,C[n+]1ccn(CCO)c1.[I-],103,103,39810.71706
+105,1-(3-hydroxypropyl)-3-methylimidazolium chloride ,[N+]1(C)=CN(C=C1)CCCO.[Cl-] ,4.6,Training,C[n+]1ccn(CCCO)c1.[Cl-],104,104,39810.71706
+106,1-(ethoxymethyl)-3-methylimidazolium chloride ,[N+]1(C)=CN(C=C1)COCC.[Cl-] ,3.603144373,Training,CCOCn1cc[n+](C)c1.[Cl-],105,105,4010.000004
+107,1-(2-ethoxyethyl)-3-methylimidazolium bromide ,[N+]1(C)=CN(C=C1)CCOCC.[Br-] ,4.139879086,Training,CCOCCn1cc[n+](C)c1.[Br-],106,106,13799.99999
+108,1-(2-methoxyethyl)-3-methylimidazolium chloride ,[N+]1(C)=CN(C=C1)CCOC.[Cl-] ,4.6,Training,COCCn1cc[n+](C)c1.[Cl-],107,107,39810.71706
+109,1-(3-methoxypropyl)-3-methylimidazolium chloride ,[N+]1(C)=CN(C=C1)CCCOC.[Cl-] ,4.79,Training,COCCCn1cc[n+](C)c1.[Cl-],108,108,61659.50019
+110,1-(cyanomethyl)-3-methylimidazolium bis(trifluoromethylsulfonyl)amide,[N+]1(C)=CN(C=C1)CC#N.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.900367129,Training,C[n+]1ccn(CC#N)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,109,109,7950.000006
+111,1-(3-hydroxypropyl)-3-methylimidazolium bis(trifluoromethylsulfonyl)amide,[N+]1(C)=CN(C=C1)CCCO.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.6599162,Training,C[n+]1ccn(CCCO)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,110,110,4569.999999
+112,1-(ethoxymethyl)-3-methylimidazolium bis(trifluoromethylsulfonyl)amide,[N+]1(C)=CN(C=C1)COCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.201397124,Training,CCOCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,111,111,1589.999999
+113,1-(2-methoxyethyl)-3-methylimidazolium bis(trifluoromethylsulfonyl)amide,[N+]1(C)=CN(C=C1)CCOC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.250420002,Training,COCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,112,112,1779.999999
+114,1-(2-ethoxyethyl)-3-methylimidazolium bis(trifluoromethylsulfonyl)amide,[N+]1(C)=CN(C=C1)CCOCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.181843588,Training,CCOCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,113,113,1520
+115,1-(3-methoxypropyl)-3-methylimidazolium bis(trifluoromethylsulfonyl)amide,[N+]1(C)=CN(C=C1)CCCOC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.342422681,Training,COCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,114,114,2200.000001
+116,1-methyl-3-propylimidazolium chloride ,[N+]1(C)=CN(C=C1)CCC.[Cl-] ,4.6,Test,CCCn1cc[n+](C)c1.[Cl-],115,115,39810.71706
+117,1-(3-carboxypropyl)-3-methylimidazolium chloride ,[N+]1(C)=CN(C=C1)CCCC(=O)O.[Cl-] ,3.78,Training,C[n+]1ccn(CCCC(=O)O)c1.[Cl-],116,116,6025.595861
+118,1-(7-carboxyheptyl)-3-methylimidazolium bromide ,[N+]1(C)=CN(C=C1)CCCCCCCC(=O)O.[Br-] ,3.78,Training,C[n+]1ccn(CCCCCCCC(=O)O)c1.[Br-],117,117,6025.595861
+119,1-(4-hydroxybutyl)-3-methylimidazolium chloride ,[N+]1(C)=CN(C=C1)CCCCO.[Cl-] ,3.78,Training,C[n+]1ccn(CCCCO)c1.[Cl-],118,118,6025.595861
+120,1-ethyl-3-propylimidazolium bromide ,[N+]1(CC)=CN(C=C1)CCC.[Br-] ,3.6,Training,CCCn1cc[n+](CC)c1.[Br-],119,119,3981.071706
+121,1-methylimidazolium tetrafluoroborate,[B-](F)(F)(F)F.C[NH+]1C=CN=C1,3.09,Training,C[NH+]1C=CN=C1.F[B-](F)(F)F,120,120,1230.268771
+122,1-methyl-3-propylimidazolium hexafluorophosphate ,[N+]1(C)=CN(C=C1)CCC.[P-](F)(F)(F)(F)(F)F ,3.3,Training,CCCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F,121,121,1995.262315
+123,1-butyl-3-methylimidazolium bis(trifluoromethyl)amide,[N+]1(C)=CN(C=C1)CCCC.[N-](C(F)(F)F)C(F)(F)F,2.187520721,Training,CCCCn1cc[n+](C)c1.FC(F)(F)[N-]C(F)(F)F,122,122,154.0000001
+124,1-(2-hydroxyethyl)-3-methylimidazolium tetrafluoroborate,[N+]1(C)=CN(C=C1)CCO.[B-](F)(F)(F)F ,3.482873584,Training,C[n+]1ccn(CCO)c1.F[B-](F)(F)F,123,123,3040.000003
+125,"1,3-didecyl-2-methylimidazolium bis(trifluoromethylsulfonyl)amide",[N+]1(CCCCCCCCCC)=C(C)N(C=C1)CCCCCCCCCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,-0.128427064,Training,CCCCCCCCCCn1cc[n+](CCCCCCCCCC)c1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,124,124,0.744000001
+126,"1-ethyl-2-(8-heptadecenyl)-4,5-dihydro-3-(2-hydroxyethyl)-1H-imidazolium?O-ethyl sulfate ",[N+]1(CC)=C(CCCCCCCC=CCCCCCCCC)N(CC1)CCO.[O-]S(=O)(=O)OCC ,0.068185862,Training,CCCCCCCCC=CCCCCCCCC1=[N+](CC)CCN1CCO.CCOS(=O)(=O)[O-],125,125,1.170000001
+127,1-ethyl-3-methylimidazolium acetate ,[N+]1(C)=CN(C=C1)CC.[O-]C(=O)C ,4.225309282,Training,CC(=O)[O-].CCn1cc[n+](C)c1,126,126,16800.00001
+128,"1-methyl-3-(3,3,4,4,5,5,6,6,7,7,8,8,8-tridecafluorooctyl)imidazolium hexafluorophosphate ",[N+]1(C)=CN(C=C1)CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F.[P-](F)(F)(F)(F)(F)F ,1.939019776,Test,C[n+]1ccn(CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)c1.F[P-](F)(F)(F)(F)F,127,127,86.89999991
+129,1-methyl-3-(2-phenylethyl)imidazolium chloride ,[N+]1(C)=CN(C=C1)CCc1ccccc1.[Cl-] ,3.3,Training,C[n+]1ccn(CCc2ccccc2)c1.[Cl-],128,128,1995.262315
+130,1-methyl-3-(3-oxobutyl)imidazolium bromide ,[N+]1(C)=CN(C=C1)CCC(=O)C.[Br-] ,3.78,Test,CC(=O)CCn1cc[n+](C)c1.[Br-],129,129,6025.595861
+131,1-(8-hydroxyoctyl)-3-methylimidazolium bromide ,[N+]1(C)=CN(C=C1)CCCCCCCCO.[Br-] ,2.357934847,Training,C[n+]1ccn(CCCCCCCCO)c1.[Br-],130,130,228
+132,1-methyl-3-(4-methylbenzyl)imidazolium hexafluorophosphate ,[N+]1(C)=CN(C=C1)Cc1ccc(cc1)C.[P-](F)(F)(F)(F)(F)F ,2.663700925,Training,Cc1ccc(Cn2cc[n+](C)c2)cc1.F[P-](F)(F)(F)(F)F,131,131,460.9999996
+133,1-butyl-3-methylimidazolium 4-methylbenzenesulfonate ,[N+]1(C)=CN(C=C1)CCCC.[O-]S(=O)(=O)c1ccc(C)cc1 ,3.290034611,Test,CCCCn1cc[n+](C)c1.Cc1ccc(S(=O)(=O)[O-])cc1,132,77,1949.999998
+134,1-benzyl-3-methylimidazolium hexafluorophosphate ,[N+]1(C)=CN(C=C1)Cc1ccccc1.[P-](F)(F)(F)(F)(F)F ,3.3,Training,C[n+]1ccn(Cc2ccccc2)c1.F[P-](F)(F)(F)(F)F,133,132,1995.262315
+135,1-benzyl-3-methylimidazolium chloride ,[N+]1(C)=CN(C=C1)Cc1ccccc1.[Cl-] ,3.3,Training,C[n+]1ccn(Cc2ccccc2)c1.[Cl-],134,133,1995.262315
+136,1-methyl-3-octylimidazolium?O-octyl sulfate ,[N+]1(C)=CN(C=C1)CCCCCCCC.[O-]S(=O)(=O)OCCCCCCCC ,1.525044807,Training,CCCCCCCCOS(=O)(=O)[O-].CCCCCCCCn1cc[n+](C)c1,135,134,33.5
+137,1-ethyl-3-methylimidazolium?O-2-(2-methoxyethoxy)ethyl sulfate ,[N+]1(C)=CN(C=C1)CC.[O-]S(=O)(=O)OCCOCCOC ,3.845718018,Training,CCn1cc[n+](C)c1.COCCOCCOS(=O)(=O)[O-],136,135,7010.000001
+138,1-hexyl-3-methylimidazolium tris(trifluoromethylsulfonyl)methanide,[N+]1(C)=CN(C=C1)CCCCCC.[C-](S(=O)(=O)C(F)(F)F)(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.44,Training,CCCCCCn1cc[n+](C)c1.O=S(=O)([C-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F)C(F)(F)F,137,136,2754.228703
+139,"1-hexyl-3-methylimidazolium 1,1-dioxo-1,2-dihydrobenzo[d]isothiazol-3-onate",[N+]1(C)=CN(C=C1)CCCCCC.[N-]1C(=O)c2ccccc2S1(=O)=O ,2.307496038,Training,CCCCCCn1cc[n+](C)c1.O=C1[N-]S(=O)(=O)c2ccccc21,138,137,203
+140,4-(2-hydroxyethyl)-4-methylmorpholinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCOCC1)CCO.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.18,Training,C[N+]1(CCO)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,139,138,1513.561248
+141,4-(ethoxymethyl)-4-methylmorpholinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCOCC1)COCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.36,Training,CCOC[N+]1(C)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,140,139,2290.867653
+142,4-butyl-4-methylmorpholinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCOCC1)CCCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.43,Training,CCCC[N+]1(C)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,141,140,2691.534804
+143,4-(ethoxymethyl)-4-methylmorpholinium chloride,CCOC[N+]1(CCOCC1)C.[Cl-],3.52,Training,CCOC[N+]1(C)CCOCC1.[Cl-],142,141,3311.311215
+144,4-(cyanomethyl)-4-methylmorpholinium bis(trifluoromethylsulfonyl)amide,N#C[N+]1(C)CCOCC1.FC(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F,3.53,Training,C[N+]1(C#N)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,143,142,3388.441561
+145,4-(3-hydroxypropyl)-4-methylmorpholinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCOCC1)CCCO.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.53,Training,C[N+]1(CCCO)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,144,143,3388.441561
+146,4-(2-ethoxyethyl)-4-methylmorpholinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCOCC1)CCOCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.69,Training,CCOCC[N+]1(C)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,145,144,4897.788194
+147,4-(3-methoxypropyl)-4-methylmorpholinium bis(trifluoromethylsulfonyl)amide(1-,[N+]1(C)(CCOCC1)CCCOC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.77,Training,COCCC[N+]1(C)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,146,145,5888.436554
+148,4-ethyl-4-methylmorpholinium 4-methylbenzenesulfonate,[N+]1(C)(CCOCC1)CC.[O-]S(=O)(=O)c1ccc(C)cc1,3.81,Test,CC[N+]1(C)CCOCC1.Cc1ccc(S(=O)(=O)[O-])cc1,147,146,6456.54229
+149,4-(2-methoxyethyl)-4-methylmorpholinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCOCC1)CCOC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.81,Test,COCC[N+]1(C)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,148,147,6456.54229
+150,4-butyl-4-methylmorpholinium bromide,[Br-].O1CC[N+](CCCC)(C)CC1,4.6,Training,CCCC[N+]1(C)CCOCC1.[Br-],149,148,39810.71706
+151,4-(2-hydroxyethyl)-4-methylmorpholinium iodide,[N+]1(C)(CCOCC1)CCO.[I-],4.6,Training,C[N+]1(CCO)CCOCC1.[I-],150,149,39810.71706
+152,4-(2-methoxyethyl)-4-methylmorpholinium chloride,[N+]1(C)(CCOCC1)CCOC.[Cl-],4.6,Test,COCC[N+]1(C)CCOCC1.[Cl-],151,150,39810.71706
+153,4-(2-ethoxyethyl)-4-methylmorpholinium bromide,[Br-].O(CC[N+]1(C)CCOCC1)CC,4.6,Test,CCOCC[N+]1(C)CCOCC1.[Br-],152,151,39810.71706
+154,4-(cyanomethyl)-4-methylmorpholinium chloride,[Cl-].N#CC[N+]1(C)CCOCC1,4.6,Test,C[N+]1(CC#N)CCOCC1.[Cl-],153,152,39810.71706
+155,4-(3-hydroxypropyl)-4-methylmorpholinium chloride,[N+]1(C)(CCOCC1)CCCO.[Cl-],4.6,Test,C[N+]1(CCCO)CCOCC1.[Cl-],154,153,39810.71706
+156,4-(3-methoxypropyl)-4-methylmorpholinium chloride,[N+]1(C)(CCOCC1)CCCOC.[Cl-],4.6,Training,COCCC[N+]1(C)CCOCC1.[Cl-],155,154,39810.71706
+157,4-Benzyl-4-methylmorpholinium nitrate,[N+]1(C)(CCOCC1)Cc1ccccc1.[O-]N(=O)=O,4,Training,C[N+]1(Cc2ccccc2)CCOCC1.O=[N+]([O-])[O-],156,155,10000
+158,4-Benzyl-4-methylmorpholinium tetrafluoroboranuide(1-),[N+]1(C)(CCOCC1)Cc1ccccc1.[B-](F)(F)(F)F,2.61,Test,C[N+]1(Cc2ccccc2)CCOCC1.F[B-](F)(F)F,157,156,407.3802778
+159,4-Benzyl-4-methylmorpholinium hydrogen sulfate,[N+]1(C)(CCOCC1)Cc1ccccc1.[O-]S(=O)(=O)O,3.64,Test,C[N+]1(Cc2ccccc2)CCOCC1.O=S(=O)([O-])O,158,157,4365.158322
+160,4-Benzyl-4-methylmorpholinium formate,[N+]1(C)(CCOCC1)Cc1ccccc1.[O-]C=O,4.1,Training,C[N+]1(Cc2ccccc2)CCOCC1.O=C[O-],159,158,12589.25412
+161,4-Benzyl-4-methylmorpholinium acetate,[N+]1(C)(CCOCC1)Cc1ccccc1.[O-]C(=O)C,4.1,Training,CC(=O)[O-].C[N+]1(Cc2ccccc2)CCOCC1,160,159,12589.25412
+162,4-Benzyl-4-methylmorpholinium methoxyacetate,[N+]1(C)(CCOCC1)Cc1ccccc1.[O-]C(=O)COC,3.9,Test,COCC(=O)[O-].C[N+]1(Cc2ccccc2)CCOCC1,161,160,7943.282347
+163,4-Benzyl-4-methylmorpholinium 2-(2-methoxyethoxy)acetate,[N+]1(C)(CCOCC1)Cc1ccccc1.[O-]C(=O)COCCOC,3.89,Test,COCCOCC(=O)[O-].C[N+]1(Cc2ccccc2)CCOCC1,162,161,7762.471166
+164,4-Benzyl-4-methylmorpholinium hexanoate,[N+]1(C)(CCOCC1)Cc1ccccc1.[O-]C(=O)CCCCC,3.63,Training,CCCCCC(=O)[O-].C[N+]1(Cc2ccccc2)CCOCC1,163,162,4265.795188
+165,4-Benzyl-4-methylmorpholinium octanoate,[N+]1(C)(CCOCC1)Cc1ccccc1.[O-]C(=O)CCCCCCC,3.22,Test,CCCCCCCC(=O)[O-].C[N+]1(Cc2ccccc2)CCOCC1,164,163,1659.586907
+166,4-benzyl-4-methylmorpholinium O-dodecyl sulfate,[N+]1(C)(CCOCC1)Cc1ccccc1.[O-]S(=O)(=O)OCCCCCCCCCCCC,2.4,Training,CCCCCCCCCCCCOS(=O)(=O)[O-].C[N+]1(Cc2ccccc2)CCOCC1,165,164,251.1886432
+167,4-Benzyl-4-methylmorpholinium 2-ethylbutyrate,[N+]1(C)(CCOCC1)Cc1ccccc1.[O-]C(=O)C(CC)CC,4.13,Training,CCC(CC)C(=O)[O-].C[N+]1(Cc2ccccc2)CCOCC1,166,165,13489.62883
+168,4-benzyl-4-methylmorpholinium 2-hydroxypropanoate,[N+]1(C)(CCOCC1)Cc1ccccc1.[O-]C(=O)C(C)O,4.3,Training,CC(O)C(=O)[O-].C[N+]1(Cc2ccccc2)CCOCC1,167,166,19952.62315
+169,4-benzyl-4-methylmorpholinium (2E)-2-butenoate,[N+]1(C)(CCOCC1)Cc1ccccc1.[O-]C(=O)/C=C/C,4.15,Training,C/C=C/C(=O)[O-].C[N+]1(Cc2ccccc2)CCOCC1,168,167,14125.37545
+170,4-benzyl-4-methylmorpholinium (2Z)-2-butenedioate,[N+]1(C)(CCOCC1)Cc1ccccc1.[O-]C(=O)/C=CC(=O)O,3.35,Training,C[N+]1(Cc2ccccc2)CCOCC1.O=C([O-])C=CC(=O)O,169,168,2238.721139
+171,4-benzyl-4-methylmorpholinium 2-hydroxybenzoate,[N+]1(C)(CCOCC1)Cc1ccccc1.[O-]C(=O)c1c(O)cccc1,2.9,Test,C[N+]1(Cc2ccccc2)CCOCC1.O=C([O-])c1ccccc1O,170,169,794.3282347
+172,"4-benzyl-4-methylmorpholinium 1,1-dioxo-1,2-dihydrobenzo[d]isothiazol-3-onate(1-)",[N+]1(C)(CCOCC1)Cc1ccccc1.[N-]1C(=O)c2ccccc2S1(=O)=O,3.5,Training,C[N+]1(Cc2ccccc2)CCOCC1.O=C1[N-]S(=O)(=O)c2ccccc21,171,170,3162.27766
+173,trihexyltetradecylphosphanium bis(trifluoromethylsulfonyl)amide,[P+](CCCCCC)(CCCCCC)(CCCCCC)CCCCCCCCCCCCCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,0.24,Training,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,172,171,1.737800829
+174,trihexyltetradecylphosphanium tetrafluoridoboranuide,[P+](CCCCCC)(CCCCCC)(CCCCCC)CCCCCCCCCCCCCC.[B-](F)(F)(F)F ,0.48,Test,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.F[B-](F)(F)F,173,172,3.01995172
+175,"tetrabutylphosphanium bis[1,2-benzenediolato(2-)]borate",[P+](CCCC)(CCCC)(CCCC)CCCC.[B-]12(Oc3ccccc3O1)Oc3ccccc3O2 ,1.32,Training,CCCC[P+](CCCC)(CCCC)CCCC.c1ccc2c(c1)O[B-]1(O2)Oc2ccccc2O1,174,173,20.89296131
+176,tetrabutylphosphanium bromide ,[P+](CCCC)(CCCC)(CCCC)CCCC.[Br-] ,1.66,Test,CCCC[P+](CCCC)(CCCC)CCCC.[Br-],175,174,45.70881896
+177,3-hydroxypropan-1-aminium formate,[O-]C=O.OCCC[NH3+],4.490660653,Training,O=C[O-].[NH3+]CCCO,176,175,30949.99997
+178,3-hydroxypropan-1-aminium butanoate,O=C([O-])CCC.OCCC[NH3+],3.260071388,Training,CCCC(=O)[O-].[NH3+]CCCO,177,176,1820
+179,2-hydroxy-N-(2-hydroxyethyl)ethanaminium acetate,O=C([O-])C.OCC[NH2+]CCO,4.032215703,Training,CC(=O)[O-].OCC[NH2+]CCO,178,177,10769.99999
+180,2-hydroxy-N-(2-hydroxyethyl)ethanaminium propanoate,O=C([O-])CC.OCC[NH2+]CCO,3.767155866,Training,CCC(=O)[O-].OCC[NH2+]CCO,179,178,5849.999999
+181,2-hydroxy-N-(2-hydroxyethyl)ethanaminium butanoate,O=C([O-])CCC.OCC[NH2+]CCO,3.245512668,Training,CCCC(=O)[O-].OCC[NH2+]CCO,180,179,1760.000001
+182,2-hydroxy-N-(2-hydroxyethyl)ethanaminium 2-methylpropanoate,O=C([O-])C(C)C.OCC[NH2+]CCO,3.474216264,Test,CC(C)C(=O)[O-].OCC[NH2+]CCO,181,180,2979.999999
+183,2-hydroxy-N-(2-hydroxyethyl)ethanaminium pentanoate,O=C([O-])CCCC.OCC[NH2+]CCO,3.72427587,Training,CCCCC(=O)[O-].OCC[NH2+]CCO,182,181,5300.000005
+184,"2-hydroxy-N,N-bis(2-hydroxyethyl)ethanaminium butanoate",[O-]C(=O)CCC.OCC[NH+](CCO)CCO,3.394451681,Training,CCCC(=O)[O-].OCC[NH+](CCO)CCO,183,182,2480.000001
+185,"2-hydroxy-N,N-bis(2-hydroxyethyl)ethanaminium pentanoate",[O-]C(=O)CCCC.OCC[NH+](CCO)CCO,3.530199698,Training,CCCCC(=O)[O-].OCC[NH+](CCO)CCO,184,183,3389.999998
+186,1-(3-methoxypropyl)-1-methylpiperidinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCCCC1)CCCOC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.27,Training,COCCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,185,184,1862.087137
+187,1-(2-methoxyethyl)-1-methylpiperidinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCCCC1)CCOC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.28,Training,COCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,186,185,1905.460718
+188,1-(2-ethoxyethyl)-1-methylpiperidinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCCCC1)CCOCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.34,Training,CCOCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,187,186,2187.761624
+189,1-butyl-1-methylpiperidinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCCCC1)CCCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.41,Training,CCCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,188,187,2570.395783
+190,1-(3-hydroxypropyl)-1-methylpiperidinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCCCC1)CCCO.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.63,Test,C[N+]1(CCCO)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,189,188,4265.795188
+191,1-(2-hydroxyethyl)-1-methylpiperidinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCCCC1)CCO.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.65,Test,C[N+]1(CCO)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,190,189,4466.835922
+192,1-(cyanomethyl)-1-methylpiperidinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCCCC1)CC#N.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,4,Training,C[N+]1(CC#N)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,191,190,10000
+193,1-butyl-1-methylpiperidinium bromide,CCCC[N+]1(CCCCC1)C.[Br-],4.03,Training,CCCC[N+]1(C)CCCCC1.[Br-],192,191,10715.19305
+194,1-(2-ethoxyethyl)-1-methylpiperidinium bromide,CCOCC[N+]1(CCCCC1)C.[Br-],4.31,Test,CCOCC[N+]1(C)CCCCC1.[Br-],193,192,20417.37945
+195,1-(3-methoxypropyl)-1-methylpiperidinium chloride,C[N+]1(CCCCC1)CCCOC.[Cl-],4.4,Training,COCCC[N+]1(C)CCCCC1.[Cl-],194,193,25118.86432
+196,1-(2-hydroxyethyl)-1-methylpiperidinium iodide,C[N+]1(CCCCC1)CCO.[I-],4.58,Training,C[N+]1(CCO)CCCCC1.[I-],195,194,38018.93963
+197,1-(cyanomethyl)-1-methylpiperidinium chloride,C[N+]1(CCCCC1)CC#N.[Cl-],4.58,Training,C[N+]1(CC#N)CCCCC1.[Cl-],196,195,38018.93963
+198,1-(2-methoxyethyl)-1-methylpiperidinium bromide,C[N+]1(CCCCC1)CCOC.[Br-],4.6,Training,COCC[N+]1(C)CCCCC1.[Br-],197,196,39810.71706
+199,1-(3-hydroxypropyl)-1-methylpiperidinium chloride,C[N+]1(CCCCC1)CCCO.[Cl-],4.6,Training,C[N+]1(CCCO)CCCCC1.[Cl-],198,197,39810.71706
+200,1-(ethoxymethyl)-1-methylpiperidinium chloride,CCOC[N+]1(CCCCC1)C.[Cl-],4.23,Training,CCOC[N+]1(C)CCCCC1.[Cl-],199,198,16982.43652
+201,1-(ethoxymethyl)-1-methylpiperidinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCCCC1)COCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.41,Test,CCOC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,200,199,2570.395783
+202,1-Methyl-1-propylpiperidinium bis(trifluoromethylsulfonyl)amide(1-),[N+]1(C)(CCCCC1)CCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.16,Training,CCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,201,200,1445.439771
+203,1-(3-sulfopropyl)pyridinium trifluoromethanesulfonate ,[n+]1(ccccc1)CCCS(=O)(=O)O.[O-]S(=O)(=O)C(F)(F)F ,3.9,Training,O=S(=O)(O)CCC[n+]1ccccc1.O=S(=O)([O-])C(F)(F)F,202,201,7943.282347
+204,1-butyl-3-methylpyridinium dicyanidoamide,[n+]1(cc(C)ccc1)CCCC.[N-](C#N)C#N ,3.46,Training,CCCC[n+]1cccc(C)c1.N#C[N-]C#N,203,202,2884.031503
+205,1-(2-Ethoxyethyl)pyridinium Bis(trifluoromethylsulfonyl)amide,[n+]1(ccccc1)CCOCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.26,Training,CCOCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,204,203,1819.700859
+206,1-(2-ethoxyethyl)pyridinium bromide ,[n+]1(ccccc1)CCOCC.[Br-] ,4.24,Training,CCOCC[n+]1ccccc1.[Br-],205,204,17378.00829
+207,1-(2-hydroxyethyl)pyridinium bis(trifluoromethylsulfonyl)amide,[n+]1(ccccc1)CCO.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.79,Training,O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.OCC[n+]1ccccc1,206,205,6165.950019
+208,1-(2-hydroxyethyl)pyridinium iodide ,[n+]1(ccccc1)CCO.[I-] ,4.16,Test,OCC[n+]1ccccc1.[I-],207,206,14454.39771
+209,1-(2-methoxyethyl)pyridinium bis(trifluoromethylsulfonyl)amide,[n+]1(ccccc1)CCOC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.19,Training,COCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,208,207,1548.816619
+210,1-(3-hydroxypropyl)pyridinium bis(trifluoromethylsulfonyl)amide,[n+]1(ccccc1)CCCO.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.55,Training,O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.OCCC[n+]1ccccc1,209,208,3548.133892
+211,1-(3-methoxypropyl)pyridinium bis(trifluoromethylsulfonyl)amide,[n+]1(ccccc1)CCCOC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.38,Training,COCCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,210,209,2398.832919
+212,1-(ethoxymethyl)pyridinium bis(trifluoromethylsulfonyl)amide,[n+]1(ccccc1)COCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.12,Test,CCOC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,211,210,1318.256739
+213,1-(ethoxymethyl)pyridinium chloride ,[n+]1(ccccc1)COCC.[Cl-] ,3.32,Training,CCOC[n+]1ccccc1.[Cl-],212,211,2089.296131
+214,1-Butyl-2-methylpyridinium Tetrafluoroborate,[n+]1(c(C)cccc1)CCCC.[B-](F)(F)(F)F ,3.25,Training,CCCC[n+]1ccccc1C.F[B-](F)(F)F,213,212,1778.27941
+215,"1-Butyl-3,4-dimethylpyridinium Tetrafluoroborate",[n+]1(cc(C)c(C)cc1)CCCC.[B-](F)(F)(F)F ,3.02,Training,CCCC[n+]1ccc(C)c(C)c1.F[B-](F)(F)F,214,213,1047.128548
+216,"1-Butyl-3,5-dimethylpyridinium Tetrafluoroborate",[n+]1(cc(C)cc(C)c1)CCCC.[B-](F)(F)(F)F ,3.26,Training,CCCC[n+]1cc(C)cc(C)c1.F[B-](F)(F)F,215,214,1819.700859
+217,1-Butyl-3-methylpyridinium Tetrafluoroborate,[n+]1(cc(C)ccc1)CCCC.[B-](F)(F)(F)F ,3.3,Test,CCCC[n+]1cccc(C)c1.F[B-](F)(F)F,216,215,1995.262315
+218,1-Butyl-4-methylpyridinium Tetrafluoroborate,[n+]1(ccc(C)cc1)CCCC.[B-](F)(F)(F)F ,2.98,Training,CCCC[n+]1ccc(C)cc1.F[B-](F)(F)F,217,216,954.992586
+219,1-butylpyridinium tetrafluoroborate ,[n+]1(ccccc1)CCCC.[B-](F)(F)(F)F ,3.6,Test,CCCC[n+]1ccccc1.F[B-](F)(F)F,218,217,3981.071706
+220,3-hydroxy-1-(propoxymethyl)pyridinium acesulfamates,[n+]1(cc(O)ccc1)COCCC.[N-]1C(=O)C=C(C)OS1(=O)=O ,3.5,Training,CC1=CC(=O)[N-]S(=O)(=O)O1.CCCOC[n+]1cccc(O)c1,219,218,3162.27766
+221,1-Cyanomethylpyridinium Chloride,[Cl-].NCCN1C=CCC=C1,3.79,Training,NCCN1C=CCC=C1.[Cl-],220,219,6165.950019
+222,1-Hexyl-4-methylpyridinium Tetrafluoroborate,[n+]1(ccc(C)cc1)CCCCCC.[B-](F)(F)(F)F ,2.17,Training,CCCCCC[n+]1ccc(C)cc1.F[B-](F)(F)F,221,220,147.9108388
+223,1-Octyl-4-methylpyridinium Tetrafluoroborate,[n+]1(ccc(C)cc1)CCCCCCCC.[B-](F)(F)(F)F ,1.49,Training,CCCCCCCC[n+]1ccc(C)cc1.F[B-](F)(F)F,222,221,30.90295433
+224,1-Octyl-4-methylpyridinium Chloride,[n+]1(ccc(C)cc1)CCCCCCCC.[Cl-] ,1.63,Training,CCCCCCCC[n+]1ccc(C)cc1.[Cl-],223,222,42.65795188
+225,1-octylpyridinium chloride ,[n+]1(ccccc1)CCCCCCCC.[Cl-] ,1.27,Training,CCCCCCCC[n+]1ccccc1.[Cl-],224,223,18.62087137
+226,4-(Dimethylamino)-1-butylpyridinium Bis(trifluoromethylsulfonyl)amide,[n+]1(ccc(N(C)C)cc1)CCCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,1.82,Training,CCCC[n+]1ccc(N(C)C)cc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,225,224,66.0693448
+227,4-(Dimethylamino)-1-butylpyridinium Chloride,[n+]1(ccc(N(C)C)cc1)CCCC.[Cl-] ,1.94,Test,CCCC[n+]1ccc(N(C)C)cc1.[Cl-],226,225,87.096359
+228,4-(dimethylamino)-1-ethylpyridinium bis(trifluoromethylsulfonyl)amide,[n+]1(ccc(N(C)C)cc1)CC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,2.79,Training,CC[n+]1ccc(N(C)C)cc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,227,226,616.5950019
+229,4-(dimethylamino)-1-ethylpyridinium bromide ,[n+]1(ccc(N(C)C)cc1)CC.[Br-] ,2.9,Training,CC[n+]1ccc(N(C)C)cc1.[Br-],228,227,794.3282347
+230,4-(dimethylamino)-1-hexylpyridinium chloride ,[n+]1(ccc(N(C)C)cc1)CCCCCC.[Cl-] ,0.93,Training,CCCCCC[n+]1ccc(N(C)C)cc1.[Cl-],229,228,8.511380382
+231,4-(dimethylamino)-1-hexylpyridinium bis(trifluoromethylsulfonyl)amide,[n+]1(ccc(N(C)C)cc1)CCCCCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,0.93,Training,CCCCCC[n+]1ccc(N(C)C)cc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,230,229,8.511380382
+232,1-(3-hydroxypropyl)pyridinium chloride ,[n+]1(ccccc1)CCCO.[Cl-] ,4.6,Training,OCCC[n+]1ccccc1.[Cl-],231,230,39810.71706
+233,1-(2-methoxyethyl)pyridinium chloride ,[n+]1(ccccc1)CCOC.[Cl-] ,4.6,Training,COCC[n+]1ccccc1.[Cl-],232,231,39810.71706
+234,1-(3-methoxypropyl)pyridinium chloride ,[n+]1(ccccc1)CCCOC.[Cl-] ,4.6,Test,COCCC[n+]1ccccc1.[Cl-],233,232,39810.71706
+235,"1-[(hexyloxy)methyl]-3-hydroxypyridinium 1,1-dioxo-1,2-dihydrobenzo[d]isothiazol-3-onate",[n+]1(cc(O)ccc1)COCCCCCC.[N-]1C(=O)c2ccccc2S1(=O)=O ,3.3,Training,CCCCCCOC[n+]1cccc(O)c1.O=C1[N-]S(=O)(=O)c2ccccc21,234,233,1995.262315
+236,1-butylpyridinium bromide ,[n+]1(ccccc1)CCCC.[Br-] ,3.9,Test,CCCC[n+]1ccccc1.[Br-],235,234,7943.282347
+237,"1-butyl-3,4-dimethylpyridinium chloride ",[n+]1(cc(C)c(C)cc1)CCCC.[Cl-] ,3.05,Training,CCCC[n+]1ccc(C)c(C)c1.[Cl-],236,235,1122.018454
+238,"1-butyl-3,5-dimethylpyridinium chloride ",[n+]1(cc(C)cc(C)c1)CCCC.[Cl-] ,3.42,Test,CCCC[n+]1cc(C)cc(C)c1.[Cl-],237,236,2630.267992
+239,1-hexyl-3-methylpyridinium chloride ,[n+]1(cc(C)ccc1)CCCCCC.[Cl-] ,2.4,Training,CCCCCC[n+]1cccc(C)c1.[Cl-],238,237,251.1886432
+240,1-butyl-3-methylpyridinium chloride ,[n+]1(cc(C)ccc1)CCCC.[Cl-] ,3.86,Training,CCCC[n+]1cccc(C)c1.[Cl-],239,238,7244.359601
+241,1-hexyl-4-methylpyridinium chloride ,[n+]1(ccc(C)cc1)CCCCCC.[Cl-] ,2.67,Training,CCCCCC[n+]1ccc(C)cc1.[Cl-],240,239,467.7351413
+242,1-butyl-4-methylpyridinium chloride ,[n+]1(ccc(C)cc1)CCCC.[Cl-] ,3.32,Test,CCCC[n+]1ccc(C)cc1.[Cl-],241,240,2089.296131
+243,1-butyl-4-methylpyridinium tetracyanidoboranuide,[n+]1(ccc(C)cc1)CCCC.[B-](C#N)(C#N)(C#N)C#N ,2.88,Test,CCCC[n+]1ccc(C)cc1.N#C[B-](C#N)(C#N)C#N,242,241,758.577575
+244,1-pentylpyridinium bromide ,[n+]1(ccccc1)CCCCC.[Br-] ,3.15,Training,CCCCC[n+]1ccccc1.[Br-],243,242,1412.537545
+245,1-pentylpyridinium bis(trifluoromethylsulfonyl)amide,[n+]1(ccccc1)CCCCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,2.85,Training,CCCCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,244,243,707.9457844
+246,1-butylpyridinium O-methyl sulfate ,[n+]1(ccccc1)CCCC.[O-]S(=O)(=O)OC ,3.92,Test,CCCC[n+]1ccccc1.COS(=O)(=O)[O-],245,244,8317.637711
+247,1-butylpyridinium hexafluorophosphate ,[n+]1(ccccc1)CCCC.[P-](F)(F)(F)(F)(F)F ,3.85,Training,CCCC[n+]1ccccc1.F[P-](F)(F)(F)(F)F,246,245,7079.457844
+248,1-butylpyridinium trifluoromethanesulfonate ,[n+]1(ccccc1)CCCC.[O-]S(=O)(=O)C(F)(F)F ,3.66,Training,CCCC[n+]1ccccc1.O=S(=O)([O-])C(F)(F)F,247,246,4570.881896
+249,1-hexylpyridinium chloride ,[n+]1(ccccc1)CCCCCC.[Cl-] ,2.8,Training,CCCCCC[n+]1ccccc1.[Cl-],248,247,630.9573445
+250,1-hexylpyridinium hexafluorophosphate ,[n+]1(ccccc1)CCCCCC.[P-](F)(F)(F)(F)(F)F ,2.51,Training,CCCCCC[n+]1ccccc1.F[P-](F)(F)(F)(F)F,249,248,323.5936569
+251,1-hexylpyridinium trifluoromethanesulfonate ,[n+]1(ccccc1)CCCCCC.[O-]S(=O)(=O)C(F)(F)F ,2.54,Training,CCCCCC[n+]1ccccc1.O=S(=O)([O-])C(F)(F)F,250,249,346.7368505
+252,1-hexylpyridinium bis(trifluoromethylsulfonyl)amide,[n+]1(ccccc1)CCCCCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,2.87,Training,CCCCCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,251,250,741.3102413
+253,1-ethylpyridinium chloride ,[n+]1(ccccc1)CC.[Cl-] ,4.22,Training,CC[n+]1ccccc1.[Cl-],252,251,16595.86907
+254,1-propylpyridinium bis(trifluoromethylsulfonyl)amide,[n+]1(ccccc1)CCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.2,Training,CCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,253,252,1584.893192
+255,3-hydroxy-1-(propoxymethyl)pyridinium chloride ,[n+]1(cc(O)ccc1)COCCC.[Cl-] ,2.9,Training,CCCOC[n+]1cccc(O)c1.[Cl-],254,253,794.3282347
+256,1-[(heptyloxy)methyl]-3-hydroxypyridinium chloride ,[n+]1(cc(O)ccc1)COCCCCCCC.[Cl-] ,3,Training,CCCCCCCOC[n+]1cccc(O)c1.[Cl-],255,254,1000
+257,3-hydroxy-1-[(undecyloxy)methyl]pyridinium chloride ,[n+]1(cc(O)ccc1)COCCCCCCCCCCC.[Cl-] ,1.6,Training,CCCCCCCCCCCOC[n+]1cccc(O)c1.[Cl-],256,255,39.81071706
+258,1-Cyanomethylpyridinium Bis(trifluoromethylsulfonyl)amide,NCCN1C=CCC=C1.FC(F)(F)S(=O)(=O)NS(=O)(=O)C(F)(F)F,3.5,Training,NCCN1C=CCC=C1.O=S(=O)(NS(=O)(=O)C(F)(F)F)C(F)(F)F,257,256,3162.27766
+259,1-butoxymethyl-3-hydroxypyridinium acesulfamates,[n+]1(cc(O)ccc1)COCCCC.[N-]1C(=O)C=C(C)OS1(=O)=O ,3.7,Test,CC1=CC(=O)[N-]S(=O)(=O)O1.CCCCOC[n+]1cccc(O)c1,258,257,5011.872336
+260,1-hexyloxymethyl-3-hydroxypyridinium acesulfamates,[n+]1(cc(O)ccc1)COCCCCCC.[N-]1C(=O)C=C(C)OS1(=O)=O ,3.4,Training,CC1=CC(=O)[N-]S(=O)(=O)O1.CCCCCCOC[n+]1cccc(O)c1,259,258,2511.886432
+261,"1-[(heptyloxy)methyl]-3-hydroxypyridinium 6-methyl-2,2-dioxo-1,2,3-oxathiazin-4-onate ",[n+]1(cc(O)ccc1)COCCCCCCC.[N-]1C(=O)C=C(C)OS1(=O)=O ,3,Training,CC1=CC(=O)[N-]S(=O)(=O)O1.CCCCCCCOC[n+]1cccc(O)c1,260,259,1000
+262,3-hydroxy-1-undecyloxymethylpyridinium acesultamates,[n+]1(cc(O)ccc1)COCCCCCCCCCCC.[N-]1C(=O)C=C(C)OS1(=O)=O ,1.6,Training,CC1=CC(=O)[N-]S(=O)(=O)O1.CCCCCCCCCCCOC[n+]1cccc(O)c1,261,260,39.81071706
+263,"3-hydroxy-1-(propoxymethyl)pyridinium 1,1-dioxo-1,2-dihydrobenzo[d]isothiazol-3-onate",[n+]1(cc(O)ccc1)COCCC.[N-]1C(=O)c2ccccc2S1(=O)=O ,3.6,Training,CCCOC[n+]1cccc(O)c1.O=C1[N-]S(=O)(=O)c2ccccc21,262,261,3981.071706
+264,1-butoxymethyl-3-hydroxypyridinium saccharinates,[n+]1(cc(O)ccc1)COCCCC.[N-]1C(=O)c2ccccc2S1(=O)=O ,3.6,Training,CCCCOC[n+]1cccc(O)c1.O=C1[N-]S(=O)(=O)c2ccccc21,263,262,3981.071706
+265,1-butyl-4-methylpyridinium hexafluorophosphate ,[n+]1(ccc(C)cc1)CCCC.[P-](F)(F)(F)(F)(F)F ,3.3,Training,CCCC[n+]1ccc(C)cc1.F[P-](F)(F)(F)(F)F,264,263,1995.262315
+266,"1-[(heptyloxy)methyl]-3-hydroxypyridinium 1,1-dioxo-1,2-dihydrobenzo[d]isothiazol-3-onate",[n+]1(cc(O)ccc1)COCCCCCCC.[N-]1C(=O)c2ccccc2S1(=O)=O ,3,Test,CCCCCCCOC[n+]1cccc(O)c1.O=C1[N-]S(=O)(=O)c2ccccc21,265,264,1000
+267,"3-hydroxy-1-[(undecyloxy)methyl]pyridinium 1,1-dioxo-1,2-dihydrobenzo[d]isothiazol-3-onate",[n+]1(cc(O)ccc1)COCCCCCCCCCCC.[N-]1C(=O)c2ccccc2S1(=O)=O ,1.6,Training,CCCCCCCCCCCOC[n+]1cccc(O)c1.O=C1[N-]S(=O)(=O)c2ccccc21,266,265,39.81071706
+268,3-methyl-1-octylpyridinium chloride,[n+]1(cc(C)ccc1)CCCCCCCC.[Cl-] ,1.47,Training,CCCCCCCC[n+]1cccc(C)c1.[Cl-],267,266,29.51209227
+269,4-(dimethylamino)-1-methylpyridinium iodide ,[n+]1(ccc(N(C)C)cc1)C.[I-] ,2.89,Training,CN(C)c1cc[n+](C)cc1.[I-],268,267,776.2471166
+270,1-butyl-1-methylpyrrolidinium bis(trifluoromethylsulfonyl)amide,[N+]1(C)(CCCC1)CCCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.01,Test,CCCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,269,268,1023.292992
+271,1-(2-ethoxyethyl)-1-methylpyrrolidinium bis(trifluoromethylsulfonyl)amide,[N+]1(C)(CCCC1)CCOCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.2,Test,CCOCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,270,269,1584.893192
+272,1-(2-hydroxyethyl)-1-methylpyrrolidinium bis(trifluoromethylsulfonyl)amide,[N+]1(C)(CCCC1)CCO.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.72,Training,C[N+]1(CCO)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,271,270,5248.074602
+273,1-(2-methoxyethyl)-1-methylpyrrolidinium bis(trifluoromethylsulfonyl)amide,[N+]1(C)(CCCC1)CCOC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.3,Training,COCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,272,271,1995.262315
+274,1-(cyanomethyl)-1-methylpyrrolidinium bis(trifluoromethylsulfonyl)amide,[N+]1(C)(CCCC1)CC#N.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.8,Training,C[N+]1(CC#N)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,273,272,6309.573445
+275,1-(3-hydroxypropyl)-1-methylpyrrolidinium bis(trifluoromethylsulfonyl)amide,[N+]1(C)(CCCC1)CCCO.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.6,Training,C[N+]1(CCCO)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,274,273,3981.071706
+276,1-(3-methoxypropyl)-1-methylpyrrolidinium bis(trifluoromethylsulfonyl)amide,[N+]1(C)(CCCC1)CCCOC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.4,Training,COCCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,275,274,2511.886432
+277,1-(ethoxymethyl)-1-methylpyrrolidinium chloride ,[N+]1(C)(CCCC1)COCC.[Cl-] ,3.05,Training,CCOC[N+]1(C)CCCC1.[Cl-],276,275,1122.018454
+278,1-(ethoxymethyl)-1-methylpyrrolidinium bis(trifluoromethylsulfonyl)amide,[N+]1(C)(CCCC1)COCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.26,Training,CCOC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,277,276,1819.700859
+279,"1,1-Dihexylpyrrolidinium Tetrafluoroborate",[N+]1(CCCCCC)(CCCC1)CCCCCC.[B-](F)(F)(F)F ,1.23,Test,CCCCCC[N+]1(CCCCCC)CCCC1.F[B-](F)(F)F,278,277,16.98243652
+280,1-Butyl-1-methylpyrrolidinium Tetrafluoroborate,[N+]1(C)(CCCC1)CCCC.[B-](F)(F)(F)F ,2.9,Training,CCCC[N+]1(C)CCCC1.F[B-](F)(F)F,279,278,794.3282347
+281,1-butyl-1-methylpyrrolidinium bromide ,[N+]1(C)(CCCC1)CCCC.[Br-] ,3.77,Training,CCCC[N+]1(C)CCCC1.[Br-],280,279,5888.436554
+282,1-Butyl-1-methylpyrrolidinium Dicyanamide,[N+]1(C)(CCCC1)CCCC.[N-](C#N)C#N,4.23,Training,CCCC[N+]1(C)CCCC1.N#C[N-]C#N,281,280,16982.43652
+283,1-hexyl-1-methylpyrrolidinium chloride ,[N+]1(C)(CCCC1)CCCCCC.[Cl-] ,2.91,Training,CCCCCC[N+]1(C)CCCC1.[Cl-],282,281,812.8305162
+284,1-Methyl-1-octylpyrrolidinium Tetrafluoroborate,[N+]1(C)(CCCC1)CCCCCCCC.[B-](F)(F)(F)F ,1.82,Training,CCCCCCCC[N+]1(C)CCCC1.F[B-](F)(F)F,283,282,66.0693448
+285,1-methyl-1-octylpyrrolidinium chloride ,[N+]1(C)(CCCC1)CCCCCCCC.[Cl-] ,2.59,Training,CCCCCCCC[N+]1(C)CCCC1.[Cl-],284,283,389.045145
+286,1-(2-hydroxyethyl)-1-methylpyrrolidinium iodide ,[N+]1(C)(CCCC1)CCO.[I-] ,4.6,Training,C[N+]1(CCO)CCCC1.[I-],285,284,39810.71706
+287,1-butyl-1-methylpyrrolidinium chloride ,[N+]1(C)(CCCC1)CCCC.[Cl-] ,4.6,Training,CCCC[N+]1(C)CCCC1.[Cl-],286,285,39810.71706
+288,1-(3-hydroxypropyl)-1-methylpyrrolidinium chloride ,[N+]1(C)(CCCC1)CCCO.[Cl-] ,4.6,Training,C[N+]1(CCCO)CCCC1.[Cl-],287,286,39810.71706
+289,1-(2-methoxyethyl)-1-methylpyrrolidinium chloride ,[N+]1(C)(CCCC1)CCOC.[Cl-] ,4.6,Training,COCC[N+]1(C)CCCC1.[Cl-],288,287,39810.71706
+290,1-(2-ethoxyethyl)-1-methylpyrrolidinium bromide ,[N+]1(C)(CCCC1)CCOCC.[Br-] ,4.6,Training,CCOCC[N+]1(C)CCCC1.[Br-],289,288,39810.71706
+291,1-(3-methoxypropyl)-1-methylpyrrolidinium chloride ,[N+]1(C)(CCCC1)CCCOC.[Cl-] ,4.6,Test,COCCC[N+]1(C)CCCC1.[Cl-],290,289,39810.71706
+292,1-butyl-1-methylpyrrolidinium trifluoridotris(pentafluoroethyl)phosphate,[N+]1(C)(CCCC1)CCCC.[P-](F)(F)(F)(C(F)(F)C(F)(F)F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,2.41,Training,CCCC[N+]1(C)CCCC1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,291,290,257.0395783
+293,1-(cyanomethyl)-1-methylpyrrolidinium chloride ,[N+]1(C)(CCCC1)CC#N.[Cl-] ,4.23,Training,C[N+]1(CC#N)CCCC1.[Cl-],292,291,16982.43652
+294,1-(ethoxycarbonylmethyl)-1-methylpyrrolidinium bis(trifluoromethylsulfonyl)amide,[N+]1(C)(CCCC1)CC(=O)OCC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F ,3.592176757,Training,CCOC(=O)C[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,293,292,3909.999996
+295,1-(ethoxycarbonylmethyl)-1-methylpyrrolidinium bromide ,[N+]1(C)(CCCC1)CC(=O)OCC.[Br-] ,3.844477176,Training,CCOC(=O)C[N+]1(C)CCCC1.[Br-],294,293,6990.000004
+296,1-(2-methoxyethyl)-1-methylpyrrolidinium trifluoridotris(pentafluoroethyl)phosphate(1-),C[N+]1(CCCC1)CCOC.C(F)(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,2.16,Training,COCC[N+]1(C)CCCC1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,295,294,144.5439771
+297,1-(ethoxycarbonylmethyl)-1-methylpyrrolidinium trifluoridotris(pentafluoroethyl)phosphate(1-),C[N+]1(CCCC1)CCOC(=O)C.C(F)(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,2.91,Training,CC(=O)OCC[N+]1(C)CCCC1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,296,295,812.8305162
+298,1-octylquinolinium tetrafluoroborate,F[B-](F)(F)F.c12ccccc1ccc[n+]2CCCCCCCC,0.17,Training,CCCCCCCC[n+]1cccc2ccccc21.F[B-](F)(F)F,297,296,1.479108388
+299,1-Butylquinolinium tetrafluoroborate(1-),F[B-](F)(F)F.c12ccccc1ccc[n+]2CCCC,2.16,Training,CCCC[n+]1cccc2ccccc21.F[B-](F)(F)F,298,297,144.5439771
+300,1-Butylquinolinium bromide,[Br-].c12ccccc1ccc[n+]2CCCC,2.32,Training,CCCC[n+]1cccc2ccccc21.[Br-],299,298,208.9296131
+301,1-Hexylquinolinium tetrafluoroborate(1-),[n+]1(cccc2ccccc12)CCCCCC.[B-](F)(F)(F)F,1.07,Training,CCCCCC[n+]1cccc2ccccc21.F[B-](F)(F)F,300,299,11.74897555
+302,1-Octylquinolinium bromide,[Br-].c12ccccc1ccc[n+]2CCCCCCCC,-0.03,Training,CCCCCCCC[n+]1cccc2ccccc21.[Br-],301,300,0.933254301
+303,triethylsulfonium bromide,[Br-].[S+](CC)(CC)CC,3.4,Training,CC[S+](CC)CC.[Br-],302,301,2511.886432
+304,Diethylmethylsulfonium bis(trifluoromethylsulfonyl)imide,[S+](C)(CC)CC.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,3.48,Training,CC[S+](C)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,303,302,3019.95172
+305,1-Methyl-3-octyl-3H-imidazolium chloride,CCCCCCCCN1C=C[N+](=C1)C.[Cl-],2,Training,CCCCCCCCn1cc[n+](C)c1.[Cl-],304,36,100
+306,1-Butyl-3-methyl-3H-imidazolium chloride,CCCCN1C=C[N+](=C1)C.[Cl-],3.55,Training,CCCCn1cc[n+](C)c1.[Cl-],305,64,3548.133892
+307,1-Hexadecyl-3-methyl-3H-imidazolium chloride,CCCCCCCCCCCCCCCCN1C=C[N+](=C1)C.[Cl-],-0.24,Training,CCCCCCCCCCCCCCCCn1cc[n+](C)c1.[Cl-],306,88,0.575439937
+308,1-Heptyl-3-methyl-3H-imidazolium chloride,CCCCCCC[NH+]1CN(C=C1)C.[Cl-],2.53,Training,CCCCCCC[NH+]1C=CN(C)C1.[Cl-],307,303,338.8441561
+309,1-Butyl-3-methyl-3H-imidazolium bromide,CCCCN1C=C[N+](=C1)C.[Br-],3.43,Test,CCCCn1cc[n+](C)c1.[Br-],308,44,2691.534804
+310,1-Butyl-3-methyl-3H-imidazolium iodide,CCCCN1C=C[N+](=C1)C.[I-],3.48,Training,CCCCn1cc[n+](C)c1.[I-],309,80,3019.95172
+311,1-Ethyl-3-methyl-3H-imidazolium tetrafluoroborate,[B-](F)(F)(F)F.CCN1C=C[N+](=C1)C,3.44,Test,CCn1cc[n+](C)c1.F[B-](F)(F)F,310,35,2754.228703
+312,1-Methyl-3-octyl-3H-imidazolium tetrafluoroborate,[B-](F)(F)(F)F.CCCCCCCCN1C=C[N+](=C1)C,1.59,Training,CCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F,311,38,38.9045145
+313,1-Methyl-3-propyl-3H-imidazolium tetrafluoroborate,[B-](F)(F)(F)F.CCCN1C=C[N+](=C1)C,3.45,Training,CCCn1cc[n+](C)c1.F[B-](F)(F)F,312,42,2818.382931
+314,1-Methyl-3-(4-methylbenzyl)-3H-imidazolium chloride,CC1=CC=C(C=C1)CN2C[NH+](C=C2)C.[Cl-],2.64,Training,Cc1ccc(CN2C=C[NH+](C)C2)cc1.[Cl-],313,304,436.5158322
+315,"1-Hexyl-2,3-dimethyl-3H-imidazolium tetrafluoroborate",[B-](F)(F)(F)F.CCCCCCN1C=C[N+](=C1C)C,1.9,Training,CCCCCCn1cc[n+](C)c1C.F[B-](F)(F)F,314,305,79.43282347
+316,1-Benzyl-3-methyl-3H-imidazolium tetrafluoroborate,[B-](F)(F)(F)F.C[N+]1=CN(C=C1)CC2=CC=CC=C2,2.97,Training,C[n+]1ccn(Cc2ccccc2)c1.F[B-](F)(F)F,315,62,933.2543008
+317,1-Ethyl-3-methyl-3H-imidazolium acetate,CCN1C=C[N+](=C1)C.CC(=O)[O-],4.23,Training,CC(=O)[O-].CCn1cc[n+](C)c1,316,126,16982.43652
+318,1-Butyl-3-methyl-3H-imidazolium 2-(2-methoxyethoxy)ethyl sulfate,CCCCN1C=C[N+](=C1)C.COCCOCCOS(=O)(=O)[O-],3.15,Training,CCCCn1cc[n+](C)c1.COCCOCCOS(=O)(=O)[O-],317,73,1412.537545
+319,1-Ethyl-3-methyl-3H-imidazolium trifluoromethanesulfonate,CCN1C=C[N+](=C1)C.C(F)(F)(F)S(=O)(=O)[O-],4.09,Training,CCn1cc[n+](C)c1.O=S(=O)([O-])C(F)(F)F,318,87,12302.68771
+320,1-Butyl-3-methyl-3H-imidazolium bis(trifluoromethylsulfonyl)amide,CCCCN1C=C[N+](=C1)C.C(F)(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F,2.68,Training,CCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,319,60,478.6300923
+321,1-Methyl-3-octyl-3H-imidazolium bis(trifluoromethylsulfonyl)amide,CCCCCCCCN1C=C[N+](=C1)C.C(F)(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F,1.64,Training,CCCCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,320,95,43.65158322
+322,1-Ethyl-3-methyl-3H-imidazolium trifluoroacetate,CCN1C=C[N+](=C1)C.C(=O)(C(F)(F)F)[O-],4,Training,CCn1cc[n+](C)c1.O=C([O-])C(F)(F)F,321,84,10000
+323,1-Ethyl-3-methyl-3H-imidazolium methanesulfonate,CCN1C=C[N+](=C1)C.CS(=O)(=O)[O-],3.97,Test,CCn1cc[n+](C)c1.CS(=O)(=O)[O-],322,306,9332.543008
+324,1-Butylpyridinium tetrafluoroborate,[B-](F)(F)(F)F.CCCC[N+]1=CC=CC=C1,3.16,Training,CCCC[n+]1ccccc1.F[B-](F)(F)F,323,217,1445.439771
+325,1-butyl-4-methylpyridinium chloride,CCCC[N+]1=CC=C(C=C1)C.[Cl-],3.32,Training,CCCC[n+]1ccc(C)cc1.[Cl-],324,240,2089.296131
+326,1-Methyl-1-octylpyrrolidinium chloride,CCCCCCCC[N+]1(CCCC1)C.[Cl-],2.59,Test,CCCCCCCC[N+]1(C)CCCC1.[Cl-],325,283,389.045145
+327,1-Butylpyridinium bromide,CCCC[N+]1=CC=CC=C1.[Br-],3.9,Training,CCCC[n+]1ccccc1.[Br-],326,234,7943.282347
+328,1-Butyl-3-methylpyridinium tetrafluoroborate,[B-](F)(F)(F)F.CCCC[N+]1=CC=CC(=C1)C,3.3,Training,CCCC[n+]1cccc(C)c1.F[B-](F)(F)F,327,215,1995.262315
+329,1-Butylpyridinium trifluoromethanesulfonate,CCCC[N+]1=CC=CC=C1.C(F)(F)(F)S(=O)(=O)[O-],3.66,Training,CCCC[n+]1ccccc1.O=S(=O)([O-])C(F)(F)F,328,246,4570.881896
+330,1-Hexylpyridinium trifluoromethanesulfonate,CCCCCC[N+]1=CC=CC=C1.C(F)(F)(F)S(=O)(=O)[O-],2.54,Training,CCCCCC[n+]1ccccc1.O=S(=O)([O-])C(F)(F)F,329,249,346.7368505
+331,1-Butylpyridinium chloride,CCCC[N+]1=CC=CC=C1.[Cl-],3.77,Training,CCCC[n+]1ccccc1.[Cl-],330,307,5888.436554
+332,1-Hexyl-3-methylpyridinium chloride,CCCCCC[N+]1=CC=CC(=C1)C.[Cl-],2.4,Training,CCCCCC[n+]1cccc(C)c1.[Cl-],331,237,251.1886432
+333,1-Hexyl-4-methylpyridinium chloride,CCCCCC[N+]1=CC=C(C=C1)C.[Cl-],2.67,Training,CCCCCC[n+]1ccc(C)cc1.[Cl-],332,239,467.7351413
+334,1-Hexyl-4-methylpyridinium tetrafluoroborate,[B-](F)(F)(F)F.CCCCCC[N+]1=CC=C(C=C1)C,2.17,Training,CCCCCC[n+]1ccc(C)cc1.F[B-](F)(F)F,333,220,147.9108388
+335,1-(Ethoxymethyl)pyridinium chloride,CCOC[N+]1=CC=CC=C1.[Cl-],3.32,Training,CCOC[n+]1ccccc1.[Cl-],334,211,2089.296131
+336,1-Butyl-2-methylpyridinium tetrafluoroborate,[B-](F)(F)(F)F.CCCC[N+]1=CC=CC=C1C,3.25,Training,CCCC[n+]1ccccc1C.F[B-](F)(F)F,335,212,1778.27941
+337,1-Propylpyridinium bis(trifluoromethylsulfonyl)amide,CCC[N+]1=CC=CC=C1.C(F)(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F,3.2,Training,CCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,336,252,1584.893192
+338,1-Pentylpyridinium bromide,CCCCC[N+]1=CC=CC=C1.[Br-],3.15,Training,CCCCC[n+]1ccccc1.[Br-],337,242,1412.537545
+339,1-Butyl-2-methylpyridinium chloride,CCCC[N+]1=CC=CC=C1C.[Cl-],3.75,Training,CCCC[n+]1ccccc1C.[Cl-],338,308,5623.413252
+340,Benzyldimethyltetradecylammonium chloride,CCCCCCCCCCCCCC[N+](C)(C)CC1=CC=CC=C1.[Cl-],0.16,Training,CCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1.[Cl-],339,25,1.445439771
+341,1-Methyl-1-propylpiperidinium bis(trifluoromethylsulfonyl)amide,CCC[N+]1(CCCCC1)C.C(F)(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F,3.16,Training,CCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,340,200,1445.439771
+342,1-(2-Methoxyethyl)-1-methylpiperidinium bis(trifluoromethylsulfonyl)amide,C[N+]1(CCCCC1)CCOC.C(F)(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F,3.25,Training,COCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,341,185,1778.27941
+343,1-Butyl-1-methylpiperidinium bis(trifluoromethylsulfonyl)amide,CCCC[N+]1(CCCCC1)C.C(F)(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F,3.41,Training,CCCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,342,187,2570.395783
+344,1-Hexylpyridinium chloride,CCCCCC[N+]1=CC=CC=C1.[Cl-],2.8,Training,CCCCCC[n+]1ccccc1.[Cl-],343,247,630.9573445
+345,1-(Cyanomethyl)pyridinium chloride,C1=CC=[N+](C=C1)CC#N.[Cl-],3.79,Training,N#CC[n+]1ccccc1.[Cl-],344,309,6165.950019
+346,1-Decyl-3-methyl-3H-imidazolium chloride,CCCCCCCCCCN1C=C[N+](=C1)C.[Cl-],1.34,Test,CCCCCCCCCCn1cc[n+](C)c1.[Cl-],345,56,21.87761624
+347,1-Hexyl-3-methyl-3H-imidazolium chloride,CCCCCCN1C=C[N+](=C1)C.[Cl-],2.82,Training,CCCCCCn1cc[n+](C)c1.[Cl-],346,49,660.693448
+348,1-Ethyl-3-methyl-3H-imidazolium chloride,CCN1C=C[N+](=C1)C.[Cl-],3.86,Training,CCn1cc[n+](C)c1.[Cl-],347,310,7244.359601
+349,1-Butyl-3-ethyl-3H-imidazolium tetrafluoroborate,[B-](F)(F)(F)F.CCCC[N+]1=CN(C=C1)CC,3.26,Test,CCCC[n+]1ccn(CC)c1.F[B-](F)(F)F,348,311,1819.700859
+350,1-Butyl-3-methyl-3H-imidazolium trifluoromethanesulfonate,CCCCN1C=C[N+](=C1)C.C(F)(F)(F)S(=O)(=O)[O-],3,Training,CCCCn1cc[n+](C)c1.O=S(=O)([O-])C(F)(F)F,349,71,1000
+351,1-Hexyl-3-methyl-3H-imidazolium bis(trifluoromethylsulfonyl)amide,CCCCCCN1C=C[N+](=C1)C.C(F)(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F,2.24,Training,CCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,350,96,173.7800829
+352,1-Ethyl-3-methyl-3H-imidazolium methyl sulfate,CCN1C=C[N+](=C1)C.COS(=O)(=O)[O-],4.2,Training,CCn1cc[n+](C)c1.COS(=O)(=O)[O-],351,312,15848.93192
+353,4-Methyl-1-octylpyridinium chloride,CCCCCCCC[N+]1=CC=C(C=C1)C.[Cl-],2.97,Training,CCCCCCCC[n+]1ccc(C)cc1.[Cl-],352,222,933.2543008
+354,1-Ethylpyridinium chloride,CC[N+]1=CC=CC=C1.[Cl-],4.22,Training,CC[n+]1ccccc1.[Cl-],353,251,16595.86907
+355,Benzyldecyldimethylammonium chloride,CCCCCCCCCC[N+](C)(C)CC1=CC=CC=C1.[Cl-],0.65,Test,CCCCCCCCCC[N+](C)(C)Cc1ccccc1.[Cl-],354,4,4.466835922
+356,1-Butyl-3-methyl-3H-imidazolium tetrafluoroborate,[B-](F)(F)(F)F.CCCCN1C=C[N+](=C1)C,3.11,Training,CCCCn1cc[n+](C)c1.F[B-](F)(F)F,355,43,1288.249552
