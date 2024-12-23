@@ -1,0 +1,343 @@
+epochs: 100
+gpu: cuda:0
+lr_decay_patience: 7
+early_stop_patience: 15
+lr_decay_factor: 0.3
+split by: IL         #RANDOM/IL
+seed: 1
+k : 5
+
+#
+#task: Melting point
+#batch_size: 64
+#init_lr: 0.0001
+#min_lr :  0.00003
+#weight_decay : 0
+##k : 10
+##seed: 1
+#DA : True
+#Freeze : False
+#Load pretrained model : True
+#
+#transformer:
+# ntoken: 2000
+# d_model: 512
+# nhead: 4
+# d_hid: 1024
+# nlayers: 6
+# dropout: 0
+
+
+
+#tensor(363.0857) tensor(75.0207) torch.Size([26730, 1, 1])
+
+#
+#task: Glass transition temperature
+#batch_size: 8
+#init_lr: 0.0001
+#min_lr :  0.00003
+#weight_decay : 0.00001
+##seed : 1
+##k : 5
+#
+#DA : True
+#Freeze : False
+#Load pretrained model : True
+#
+#
+#transformer:
+# ntoken: 2000
+# d_model: 512
+# nhead: 4
+# d_hid: 1024
+# nlayers: 6
+# dropout: 0.05
+
+
+# tensor(215.6339) tensor(29.5529) torch.Size([7930, 1, 1])
+
+
+
+
+# Thermal decomposition temperature
+#
+#task: Thermal decomposition temperature
+#batch_size: 16
+#init_lr: 0.0001
+#min_lr :  0.00003
+#weight_decay : 0
+##k : 10
+##seed : 1
+#
+#DA : True
+#Freeze : False
+#Load pretrained model : True
+#
+#
+#
+#transformer:
+#  ntoken: 2000
+#  d_model: 512
+#  nhead: 4
+#  d_hid: 1024
+#  nlayers: 6
+#  dropout: 0.05
+
+#
+#tensor(522.9653) tensor(76.1426) torch.Size([27790, 1, 1])
+
+
+
+
+
+
+
+
+
+
+
+
+# task: IPC-81
+#task: C
+#batch_size: 16      #16
+#init_lr: 0.0001
+#min_lr :  0.00003
+#weight_decay : 0.00001
+##k : 10
+##seed : 1
+#DA : True
+#Freeze : False
+#Load pretrained model : True
+#
+#
+#transformer:
+# ntoken: 2000
+# d_model: 512
+# nhead: 4
+# d_hid: 1024
+# nlayers: 6
+# dropout: 0
+#tensor(3.1156) tensor(1.0641) torch.Size([3550, 1, 1])
+
+
+
+
+
+
+#task: Electrical conductivity
+#batch_size: 128
+#init_lr: 0.0001
+#min_lr :  0.00003
+#weight_decay : 0.00001
+#
+#DA : True
+#Freeze : False
+#Load pretrained model : True
+#
+#
+#transformer:
+# ntoken: 2000
+# d_model: 512
+# nhead: 4
+# d_hid: 1024
+# nlayers: 6
+# dropout: 0
+
+
+
+#'Electrical conductivity': (-1.2724, 1.9117),   4700
+#tensor(-1.0393) tensor(1.5858) torch.Size([2168, 1, 1])
+#tensor(-1.2724) tensor(1.9116) torch.Size([47080, 1, 1])
+
+
+
+# Thermal conductivity
+
+#task: Thermal conductivity
+#task: TC IL
+#batch_size: 16
+#init_lr: 0.0001
+#min_lr :  0.00003
+#weight_decay : 0
+#
+#DA : True
+#Freeze : False
+#Load pretrained model : True
+#
+#
+#transformer:
+# ntoken: 2000
+# d_model: 512
+# nhead: 4
+# d_hid: 1024
+# nlayers: 6
+# dropout: 0
+
+# tensor(0.1507) tensor(0.0254) torch.Size([606, 1, 1])
+
+
+
+#task: Density
+#batch_size: 64
+#init_lr: 0.0001
+#min_lr :  0.00003
+#weight_decay : 0.00001
+#
+#DA : False
+#Freeze : False
+#Load pretrained model : True
+#
+#
+#
+#transformer:
+#  ntoken: 2000
+#  d_model: 512
+#  nhead: 4
+#  d_hid: 1024
+#  nlayers: 6
+#  dropout: 0
+
+#  tensor(1218.4255) tensor(165.7802) torch.Size([39830, 1, 1])
+
+
+
+
+# Surface tension
+#
+#task: Surface tension
+#batch_size: 128
+#init_lr: 0.0001
+#min_lr :  0.00003
+#weight_decay : 0
+#
+#DA : True
+#Freeze : False
+#Load pretrained model : True
+#
+#transformer:
+# ntoken: 2000
+# d_model: 512
+# nhead: 4
+# d_hid: 1024
+# nlayers: 6
+# dropout: 0
+
+
+#tensor(38.2560) tensor(9.0138) torch.Size([5990, 1, 1])
+
+
+#
+#task: Refractive index
+#batch_size: 128
+#init_lr: 0.0001
+#min_lr :  0.00003
+#weight_decay : 0
+#
+#DA : True
+#Freeze : False
+#Load pretrained model : True
+#
+#transformer:
+# ntoken: 2000
+# d_model: 512
+# nhead: 4
+# d_hid: 1024
+# nlayers: 6
+# dropout: 0.05
+
+#tensor(1.4676) tensor(0.0407) torch.Size([3596, 1, 1])
+
+
+#
+#task: Viscosity
+#batch_size: 2
+#init_lr: 0.0001
+#min_lr :  0.00003
+#weight_decay : 0.00001
+#
+#DA : False
+#Freeze : True
+#Load pretrained model : True
+#
+#
+#transformer:
+#  ntoken: 2000
+#  d_model: 512
+#  nhead: 4
+#  d_hid: 1024
+#  nlayers: 6
+#  dropout: 0
+
+
+#task: Viscosity
+#batch_size: 128
+#init_lr: 0.0001
+#min_lr :  0.00003
+#weight_decay : 0.00001
+#
+#DA : False
+#Freeze : False
+#Load pretrained model : True
+#
+#
+#transformer:
+#  ntoken: 2000
+#  d_model: 512
+#  nhead: 4
+#  d_hid: 1024
+#  nlayers: 6
+#  dropout: 0
+
+#tensor(4.1952) tensor(1.6220) torch.Size([15368, 1, 1])
+
+
+# CO2
+
+# task: CO2
+# batch_size: 32
+# init_lr: 0.0001
+# min_lr :  0.00003
+# weight_decay : 0
+
+# DA : False
+# Freeze : True
+# Load pretrained model : True
+
+
+# transformer:
+#  ntoken: 2000
+#  d_model: 512
+#  nhead: 4
+#  d_hid: 1024
+#  nlayers: 6
+#  dropout: 0.05
+
+
+
+
+#tensor(0.3349) tensor(0.2362) torch.Size([10116, 1, 1])
+
+
+
+## Heat capacity
+#
+#task: Heat capacity
+#batch_size: 128
+#init_lr: 0.0001
+#min_lr :  0.00003
+#weight_decay : 0
+#
+#DA : False
+#Freeze : True
+#Load pretrained model : True
+#
+#transformer:
+# ntoken: 2000
+# d_model: 512
+# nhead: 4
+# d_hid: 1024
+# nlayers: 6
+# dropout: 0.1
+
+
+#tensor(5.8234) tensor(0.9263) torch.Size([9083, 1, 1])
