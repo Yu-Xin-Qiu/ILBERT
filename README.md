@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ## 2. Download the database
 
-Due to the large size of the pre-training dataset and the virtual screening dataset, we provide these two datasets in https://zenodo.org/uploads/14601320. The pre-training dataset contains 31M unlabeled IL-like molecules, and the virtual screening dataset contains 8,333,096 synthetically-feasible ILs including the 12 key properties we predict.
+Due to the large size of the pre-training dataset and the virtual screening dataset, we provide these two datasets in [Zenodo](https://zenodo.org/records/14601320?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImRlNDY4MGUyLTYzZjgtNDg4Ny1iODJiLWVjZmQxYzZjMGMzNyIsImRhdGEiOnt9LCJyYW5kb20iOiIxNDM2Y2Y1Mjg4YjU4ZmQzZTRiMTkyMDYyYTkzZWRhZSJ9.8Oj2fGQBaMM-cxgO-PVH8qJZrKh4d5ySpacbqo_q03S48P8wswvHOulyWddIyv9sfxeq9uyOoatJEcykmFs3JA). The pre-training dataset contains 31M unlabeled IL-like molecules, and the virtual screening dataset contains 8,333,096 synthetically-feasible ILs including the 12 key properties we predict.
 
 ## 3. Fine-tuning
 
