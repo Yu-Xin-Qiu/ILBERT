@@ -113,8 +113,6 @@ def evaluate_dataset(model, dataset, fold,shuffle,name, save=False):
             y.extend(label.detach().cpu().numpy())
             pred.extend(output.detach().cpu().numpy())
             smi.extend(smiles)
-            # T.extend(t.detach().cpu().numpy())  # Convert tensor to numpy array
-            # T.extend(p.detach().cpu().numpy())  # Convert tensor to numpy array
 
             T.extend(t.detach().cpu().numpy())
             P.extend(p.detach().cpu().numpy())
@@ -128,7 +126,7 @@ def evaluate_dataset(model, dataset, fold,shuffle,name, save=False):
 
     if save:
         df = pd.DataFrame({'Experimental Value': y, 'Predicted Value': pred, 'SMILES': smi, 'T': T, 'P': P})
-        df.to_csv(f'training_results/cv/fold_{fold + 1}_predictions_{name}.csv', index=False)
+        df.to_csv(f'training_results/fold_{fold + 1}_predictions_{name}.csv', index=False)
 
     return mae, rmse, r2, mse
 
@@ -192,10 +190,9 @@ def cross_validation(dataset,config,df,num_folds):
             model = ILBERT(**config["transformer"]).to(device)
             print('Depend on nothing')
 
-        # 加载预训练权重文件
         if config['Load pretrained model']== True:
             print('Load pretrained model!')
-            state_dict = torch.load("D:/QYX/ILlab/TrainingRobertaFromScratch-master/14M/14M_model100%.pth", map_location=device)
+            state_dict = torch.load("ILBERT/pretrained_model.pth", map_location=device)
             model.load_state_dict(state_dict, strict=False)
 
         if config['Freeze']== True:
@@ -231,7 +228,7 @@ def cross_validation(dataset,config,df,num_folds):
             else:
                 model.eval()
                 _, _, _, _ = evaluate_dataset(model,test_dataset ,fold,name='val',shuffle=False,save=True)
-                valid_mae, valid_rmse, valid_r2 = calculate_metrics(f'training_results/cv/fold_{fold + 1}_predictions_val.csv')
+                valid_mae, valid_rmse, valid_r2 = calculate_metrics(f'training_results/fold_{fold + 1}_predictions_val.csv')
 
             end_time = time.time()
             epoch_time = end_time - start_time
@@ -247,7 +244,7 @@ def cross_validation(dataset,config,df,num_folds):
                 best_valid_mae = valid_mae
                 best_valid_rmse = valid_rmse
                 best_valid_r2 = valid_r2
-                torch.save(model.state_dict(), f'model_weight/cv/fold_{fold + 1}_best_model.pth')
+                torch.save(model.state_dict(), f'model_weight/fold_{fold + 1}_best_model.pth')
 
                 early_stopping_count = 0
             else:
@@ -264,7 +261,7 @@ def cross_validation(dataset,config,df,num_folds):
             print(f'Epoch {epoch}: Learning rate = {current_lr}')
 
         average_epoch_time = sum(epoch_times) / len(epoch_times)
-        model.load_state_dict(torch.load(f'model_weight/cv/fold_{fold+1}_best_model.pth'))
+        model.load_state_dict(torch.load(f'model_weight/fold_{fold+1}_best_model.pth'))
         test_mae, test_rmse, test_r2,_= evaluate_dataset(model, test_dataset, fold,shuffle=False,name='test',save=True)
 
         results['test_mae'].append(test_mae)
@@ -272,7 +269,7 @@ def cross_validation(dataset,config,df,num_folds):
         results['test_r2'].append(test_r2)
 
         if config['DA'] == True:
-            mae, rmse, r2 = calculate_metrics(f'training_results/cv/fold_{fold + 1}_predictions_test.csv')
+            mae, rmse, r2 = calculate_metrics(f'training_results/fold_{fold + 1}_predictions_test.csv')
             print(f'Best_Epoch:{epoch - early_stopping_count}, Average epoch time: {average_epoch_time:.2f}s,Train_Loss: {best_train_loss:.6f}, Train_R2: {best_train_r2:.6f},Valid_MAE: {best_valid_mae:.6f}, Valid_RMSE: {best_valid_rmse:.6f}, Valid_R2: {best_valid_r2:.6f},Test_MAE: {mae:.6f}, Test_RMSE: {rmse:.6f}, Test_R2: {r2:.6f}')
 
         else:
@@ -285,7 +282,7 @@ def cross_validation(dataset,config,df,num_folds):
     if config['DA'] == True:
 
         for i in range(1, num_folds+1):
-            filename = f"training_results/cv/fold_{i}_predictions_test.csv"
+            filename = f"training_results/fold_{i}_predictions_test.csv"
             df = pd.read_csv(filename)
             grouped_df = df.groupby(df.index // 10)
             group_data_list = []
@@ -304,7 +301,7 @@ def cross_validation(dataset,config,df,num_folds):
     else:
         df = pd.DataFrame()
         for i in range(1, num_folds+1):
-            filename = f"training_results/cv/fold_{i}_predictions_test.csv"
+            filename = f"training_results/fold_{i}_predictions_test.csv"
             fold_df = pd.read_csv(filename)
             df = pd.concat([df, fold_df])
 
