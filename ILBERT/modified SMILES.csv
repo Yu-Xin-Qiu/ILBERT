@@ -1,0 +1,26 @@
+SMILES,File Name,modifed SMILES
+CCCCn1cc[n+](C)c1.[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[Co],Norm_C.csv,\
+NCCN1C=CCC=C1.FC(F)(F)S(=O)(=O)NS(=O)(=O)C(F)(F)F,Norm_C.csv,N#CC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+NCCN1C=CCC=C1.[Cl-],Norm_C.csv,N#CC[n+]1ccccc1.[Cl-]
+CN(CCO)CCO.[Cl-],Norm_CO2.csv,C[N+](CCO)CCO.[Cl-]
+O=S(=O)(O)C(F)(F)F.c1c[nH+]c[nH]1,MP.csv,O=S(=O)([O-])C(F)(F)F.c1c[nH+]c[nH]1
+CCCC[n+]1ccn(C)c1.F[PH](F)(F)(F)(F)F,MP.csv,CCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F
+CCCCCCCCCCCCCC[n+]1ccn(C)c1.F[PH](F)(F)(F)(F)F,MP.csv,CCCCCCCCCCCCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F
+CCCCCCCC[N+](CC)(CC)CC.F[PH](F)(F)(F)(F)F,MP.csv,CCCCCCCC[N+](CC)(CC)CC.F[P-](F)(F)(F)(F)F
+F[PH](F)(F)(F)(F)F.N#CCCC[n+]1ccccc1,MP.csv,F[P-](F)(F)(F)(F)F.N#CCCC[n+]1ccccc1
+CCCC[n+]1ccn(-c2c(C)cc(C)cc2C)c1.F[PH](F)(F)(F)(F)F,MP.csv,CCCC[n+]1ccn(-c2c(C)cc(C)cc2C)c1.F[P-](F)(F)(F)(F)F
+CCCCCCCCCCCC[n+]1ccc(C#N)cc1.F[PH](F)(F)(F)(F)F,MP.csv,CCCCCCCCCCCC[n+]1ccc(C#N)cc1.F[P-](F)(F)(F)(F)F
+CC1CCC(C(C)C)C(OC(=O)C[n+]2cn(C)c3ccccc32)C1.F[PH](F)(F)(F)(F)F,MP.csv,CC1CCC(C(C)C)C(OC(=O)C[n+]2cn(C)c3ccccc32)C1.F[P-](F)(F)(F)(F)F
+Cc1n[n+](C)c(C)n1N.F[PH](F)(F)(F)(F)F,MP.csv,Cc1n[n+](C)c(C)n1N.F[P-](F)(F)(F)(F)F
+CCCCOCn1cc[n+](COCCC)c1CC.F[PH](F)(F)(F)(F)F,MP.csv,CCCCOCn1cc[n+](COCCC)c1CC.F[P-](F)(F)(F)(F)F
+CCn1cc[n+](CC)c1.F[PH](F)(F)(F)(F)F,MP.csv,CCn1cc[n+](CC)c1.F[P-](F)(F)(F)(F)F
+Cn1cc[n+](CCCCCCCCCCC(=O)O)c1.F[PH](F)(F)(F)(F)F,MP.csv,Cn1cc[n+](CCCCCCCCCCC(=O)O)c1.F[P-](F)(F)(F)(F)F
+Cn1cc[n+](CCOC(=O)c2ccc(C(N)=NOC(=O)c3ccco3)cc2)c1.F[PH](F)(F)(F)(F)F,MP.csv,Cn1cc[n+](CCOC(=O)c2ccc(C(N)=NOC(=O)c3ccco3)cc2)c1.F[P-](F)(F)(F)(F)F
+Cn1cc[n+](CC(=O)N2C(=O)OCC2Cc2ccccc2)c1.F[PH](F)(F)(F)(F)F,MP.csv,Cn1cc[n+](CC(=O)N2C(=O)OCC2Cc2ccccc2)c1.F[P-](F)(F)(F)(F)F
+CCCCn1c[n+](CCCC)c2cc(C)c(C)cc21.F[PH](F)(F)(F)(F)F,MP.csv,CCCCn1c[n+](CCCC)c2cc(C)c(C)cc21.F[P-](F)(F)(F)(F)F
+CCCCCc1c[n+](C2CNC(C(O)(c3ccccc3)c3ccccc3)C2)nn1C.F[PH](F)(F)(F)(F)F,MP.csv,CCCCCc1c[n+](C2CNC(C(O)(c3ccccc3)c3ccccc3)C2)nn1C.F[P-](F)(F)(F)(F)F
+CCCC[n+]1ccn(CC(OCc2ccc(Cl)cc2Cl)c2ccc(Cl)cc2Cl)c1.F[PH](F)(F)(F)(F)F,MP.csv,CCCC[n+]1ccn(CC(OCc2ccc(Cl)cc2Cl)c2ccc(Cl)cc2Cl)c1.F[P-](F)(F)(F)(F)F
+C=Cc1ccc(C[n+]2ccn(CCCC)c2)cc1.F[PH](F)(F)(F)(F)F,MP.csv,C=Cc1ccc(C[n+]2ccn(CCCC)c2)cc1.F[P-](F)(F)(F)(F)F
+F[PH](F)(F)(F)(F)F.O=C(C[n+]1ccccc1)N1C(=O)OCC1Cc1ccccc1,MP.csv,F[P-](F)(F)(F)(F)F.O=C(C[n+]1ccccc1)N1C(=O)OCC1Cc1ccccc1
+Cn1cc[n+](CC(=O)N2C(=O)OCC2c2ccccc2)c1.F[PH](F)(F)(F)(F)F,MP.csv,Cn1cc[n+](CC(=O)N2C(=O)OCC2c2ccccc2)c1.F[P-](F)(F)(F)(F)F
+O=[SH](=O)c1ccccc1.OCC[NH+](CCO)CCO,Norm_TDT.csv,O=S(=O)([O-])c1ccccc1.OCC[NH+](CCO)CCO

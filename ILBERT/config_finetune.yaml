@@ -1,0 +1,30 @@
+epochs: 100
+gpu: cuda:0
+lr_decay_patience: 7
+early_stop_patience: 15
+lr_decay_factor: 0.3
+split by: IL         #RANDOM/IL
+seed: 1
+k : 5
+
+
+task: target
+batch_size: 16
+init_lr: 0.0001
+min_lr :  0.00003
+weight_decay : 0
+
+DA : False
+Freeze : False
+Load pretrained model : True
+
+transformer:
+  ntoken: 2000
+  d_model: 512
+  nhead: 4
+  d_hid: 1024
+  nlayers: 6
+  dropout: 0
+
+
+

@@ -192,7 +192,7 @@ def cross_validation(dataset,config,df,num_folds):
 
         if config['Load pretrained model']== True:
             print('Load pretrained model!')
-            state_dict = torch.load("model_weight/pretrained_model.pth", map_location=device)
+            state_dict = torch.load("ILBERT/pretrained_model.pth", map_location=device)
             model.load_state_dict(state_dict, strict=False)
 
         if config['Freeze']== True:
@@ -236,6 +236,7 @@ def cross_validation(dataset,config,df,num_folds):
             print(f"Epoch{epoch:3d},Time:{epoch_time:.2f}s,TrainLoss:{train_loss:.6f},TrainR2:{train_r2:.6f},ValidMAE:{valid_mae:.6f},ValidRMSE:{valid_rmse:.6f},ValidR2:{valid_r2:.6f}")
 
 
+            # if train_r2>0.5:
 
             if train_r2 > 0.5 and valid_rmse < best_valid_rmse :
                 best_train_loss = train_loss
@@ -315,7 +316,7 @@ def cross_validation(dataset,config,df,num_folds):
 
 
 if __name__ == "__main__":
-    config = yaml.load(open("config.yaml", "r", encoding="utf-8"), Loader=yaml.FullLoader)
+    config = yaml.load(open("config_finetune.yaml", "r", encoding="utf-8"), Loader=yaml.FullLoader)
 
     setup_seed(config['seed'])
     print(config)
@@ -323,154 +324,11 @@ if __name__ == "__main__":
     print('running on:',device)
     print('---loading dataset---')
 
-    if config['task'] == 'Melting point':
-        target = 'MP_K'
-        print('#--------------------------#')
-        print('Training on Melting point')
-        print('#--------------------------#')
-        if config['DA'] == True:
-            df = pd.read_csv("data/MP/modified_expanded_MP.csv")
-            print("Using Data Augmentation!")
-        else:
-            df = pd.read_csv("data/MP/modified_MP.csv")
-            print("Not Using Data Augmentation!")
-
-    elif config['task'] == 'Glass transition temperature':
-        target = 'Tg/K'
-        print('#--------------------------#')
-        print('Training on Glass transition temperature')
-        print('#--------------------------#')
-        if config['DA'] == True:
-            df = pd.read_csv("data/GTT/expanded_GTT.csv")
-            print("Using Data Augmentation!")
-        else:
-            df = pd.read_csv("data/GTT/Norm_GTT.csv")
-            print("Not Using Data Augmentation!")
-
-    elif config['task'] == 'Thermal decomposition temperature':
-        target = 'Td/K'
-        print('#--------------------------#')
-        print('Training on Thermal decomposition temperature')
-        print('#--------------------------#')
-        if config['DA'] == True:
-            df = pd.read_csv("data/TDT/expanded_TDT.csv")
-            print("Using Data Augmentation!")
-        else:
-            df = pd.read_csv("data/TDT/Norm_TDT.csv")
-            print("Not Using Data Augmentation!")
-
-    elif config['task'] == 'C':
-        target = 'logEC50'
-        print('#--------------------------#')
-        print('Training on IPC-81')
-        print('#--------------------------#')
-        if config['DA'] == True:
-            df= pd.read_csv("data/C/modified_expanded_Norm_C.csv")
-            print("Using Data Augmentation!")
-        else:
-            df = pd.read_csv("data/C/modified_Norm_C.csv")
-            print("Not Using Data Augmentation!")
-
-
-
-
-    elif config['task'] == 'Electrical conductivity':
-        target = 'lnEC'
-        print('#--------------------------#')
-        print('Training on Electrical conductivity')
-        print('#--------------------------#')
-        if config['DA'] == True:
-            df = pd.read_csv("data/EC/expanded_EC.csv")
-            print("Using Data Augmentation!")
-        else:
-            df = pd.read_csv("data/EC/EC.csv")
-        print("Not Using Data Augmentation!")
-
-
-    elif config['task'] == 'TC IL':
-        target = 'TC/W m-1 K-1'
-        print('#--------------------------#')
-        print('Training on Thermal conductivity')
-        print('#--------------------------#')
-
-
-        if config['DA'] == True:
-            df = pd.read_csv("data/TC/TC_Norm_EX.csv")
-            print("Using Data Augmentation!")
-        else:
-            df = pd.read_csv("data/TC/TC_Norm.csv")
-        print("Not Using Data Augmentation!")
-
-
-
-    elif config['task'] == 'Viscosity':
-        target = 'ln(n_mPas)'
-        print('#--------------------------#')
-        print('Training on Viscosity')
-        print('#--------------------------#')
-        df = pd.read_csv("data/V/viscosity_P.csv")
-        print("Not Using Data Augmentation!")
-
-
-
-    elif config['task'] == 'Density':
-        target = 'd_kg m-3'
-        print('#--------------------------#')
-        print('Training on Density')
-        print('#--------------------------#')
-        df = pd.read_csv("data/D/modified_density_P.csv")
-        print("Not Using Data Augmentation!")
-
-    elif config['task'] == 'Surface tension':
-        target = 's_mNm'
-        print('#--------------------------#')
-        print('Training on Surface tension')
-        print('#--------------------------#')
-        if config['DA'] == True:
-            df = pd.read_csv("data/ST/Norm_surface_EX.csv")
-            print("Using Data Augmentation!")
-        else:
-            df = pd.read_csv("data/ST/Norm_surface.csv")
-        print("Not Using Data Augmentation!")
-
-
-
-    elif config['task'] == 'Refractive index':
-        target = 'R'
-        print('#--------------------------#')
-        print('Training on Surface tension')
-        print('#--------------------------#')
-        if config['DA'] == True:
-            df = pd.read_csv("data/R/expanded_RR.csv")
-            print("Using Data Augmentation!")
-        else:
-            df = pd.read_csv("data/R/RR.csv")
-        print("Not Using Data Augmentation!")
-
-    elif config['task'] == 'CO2':
-        target = 'x_CO2'
-        print('#--------------------------#')
-        print('Training on CO2')
-        print('#--------------------------#')
-        df = pd.read_csv("data/CO2/modified_Norm_CO2.csv")
-        print("Not Using Data Augmentation!")
-
-    elif config['task'] == 'Heat capacity':
-        target = 'lnhc'
-        print('#--------------------------#')
-        print('Training on Heat capacity')
-        print('#--------------------------#')
-        df = pd.read_csv("data/HC/Norm_HC.csv")
-        print("Not Using Data Augmentation!")
-
-
-    else:
-        print("Invalid Downstream Task!")
-
-
+    target = 'target'
+    df = pd.read_csv("example.csv")
 
     from ILtokenizer import SMILES_Atomwise_Tokenizer
-    tokenizer=SMILES_Atomwise_Tokenizer('vocab.txt')
+    tokenizer=SMILES_Atomwise_Tokenizer('merged_vocab.txt')
 
     dataset = SMILES_dataset(df = df, tokenizer = tokenizer,target=target)
     loader = DataLoader(dataset, batch_size=config['batch_size'], shuffle=False)

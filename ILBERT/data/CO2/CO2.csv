@@ -1,4 +1,4 @@
-,Canonical SMILES,T/K,P,Mole,Index,P/bar,ln(x_CO2)
+,Normalized SMILES,T/K,P,Mole,Index,P/bar,ln(x_CO2)
 0,CCCC[n+]1ccn(C)c1.O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,323.2,14110,0.9516,126,141.1,0.9516
 1,CCCC[n+]1ccn(C)c1.O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,318.2,13130,0.9516,126,131.3,0.9516
 2,CCCC[n+]1ccn(C)c1.O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,313.2,11790,0.9516,126,117.9,0.9516

@@ -7,25 +7,26 @@ split by: IL         #RANDOM/IL
 seed: 1
 k : 5
 
+
+
 #
-#task: Melting point
-#batch_size: 64
-#init_lr: 0.0001
-#min_lr :  0.00003
-#weight_decay : 0
-##k : 10
-##seed: 1
-#DA : True
-#Freeze : False
-#Load pretrained model : True
-#
-#transformer:
-# ntoken: 2000
-# d_model: 512
-# nhead: 4
-# d_hid: 1024
-# nlayers: 6
-# dropout: 0
+task: Melting point
+batch_size: 64
+init_lr: 0.0001
+min_lr :  0.00003
+weight_decay : 0
+
+DA : True
+Freeze : False
+Load pretrained model : True
+
+transformer:
+  ntoken: 2000
+  d_model: 512
+  nhead: 4
+  d_hid: 1024
+  nlayers: 6
+  dropout: 0
 
 
 
