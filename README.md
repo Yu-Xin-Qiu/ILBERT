@@ -22,5 +22,5 @@ To fine-tune the ILBERT on other downstream IL properties datasets, please run `
 
 ## 4. Screening
 
-Please download the new predicted database from [Zenodo](https://zenodo.org/records/15046370). Run the jupyter notebook `ILBERT/screening.ipynb` to get the screening results.
+Please download the new predicted database (IL.csv) from [Zenodo](https://zenodo.org/records/15046370). Run the jupyter notebook `ILBERT/screening.ipynb` to get the screening results.
 
