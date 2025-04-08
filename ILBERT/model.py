@@ -8,6 +8,44 @@ from transformers import RobertaConfig, RobertaModel
 
 
 
+class ILBERT_class(nn.Module):
+    def __init__(self, ntoken: int, d_model: int, nhead: int, d_hid: int,
+                 nlayers: int, dropout: float):
+        super().__init__()
+        self.model_type = 'RoBERTa'
+
+        config = RobertaConfig(
+            vocab_size=ntoken,  
+            hidden_size=d_model,  
+            num_hidden_layers=nlayers,  
+            num_attention_heads=nhead,  
+            intermediate_size=d_hid, 
+            hidden_dropout_prob=dropout,  
+            attention_probs_dropout_prob=dropout,
+            output_attentions=False, 
+        )
+        self.roberta = RobertaModel(config)
+        self.CNN = CNN(embed_size=d_model, dropout=dropout)
+        self.pred_head = nn.Sequential(
+            nn.Linear(d_model, d_model // 2),
+            nn.Linear(d_model // 2, 2)
+        )
+
+    def forward(self, input):
+
+        x, _ = input
+
+        attention_mask = (x != 0).long()
+
+        outputs = self.roberta(input_ids=x.long(), attention_mask=attention_mask)
+
+        last_hidden_states = outputs.last_hidden_state
+        last_hidden_states = last_hidden_states.permute(1, 0, 2) 
+
+        output = self.CNN(last_hidden_states)
+        output = self.pred_head(output)
+
+        return output
 
 
 class CNN(nn.Module):
