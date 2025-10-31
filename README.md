@@ -2,7 +2,7 @@
 
 # Please note that the website has been changed to [http://ai4solvents.com/prediction/IL]!
 
-This is the official implementation of "Large Chemical Language Models for Property Prediction and High-throughput Screening of Ionic Liquids". In this study, we introduce ILBERT, a large-scale chemical language model designed to predict twelve key physicochemical and thermodynamic properties of ionic liquids (ILs). To facilitate the widespread use of ILBERT for assisting researchers in designing ILs for specific processes, a web server thereon is developed on the http://ai4solvents.com/prediction.
+This is the official implementation of "Large Chemical Language Models for Property Prediction and High-throughput Screening of Ionic Liquids". In this study, we introduce ILBERT, a large-scale chemical language model designed to predict twelve key physicochemical and thermodynamic properties of ionic liquids (ILs). To facilitate the widespread use of ILBERT for assisting researchers in designing ILs for specific processes, a web server thereon is developed on the [http://ai4solvents.com/prediction/IL].
 
 # How to get started
 
